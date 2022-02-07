@@ -1,4 +1,4 @@
-Info about all the methods in OurAPI:
+Info about all the methods in base.OurAPI:
 
 1.createWebElement() - is a return type method. Does a very simple job, just creates an element, using xpath.
 2.createWebElementByID() - if you happen to locate an id, use this method, its a lot easier.
