@@ -21,7 +21,7 @@ public class OurAPI {
         public WebDriver driver;
         @Parameters({"OS","browserName","url"})
         @BeforeMethod
-        public void startingPoint(@Optional("windows") String OS, @Optional("chrome") String browserName,@Optional("https://google.com") String url) {
+        public void startingPoint(@Optional("windows") String OS, @Optional("chrome") String browserName,@Optional("https://www.google.com/") String url) {
             System.out.println("---------------------------------------------------");
             getDriver(OS, browserName);
             driver.manage().window().maximize();
@@ -32,9 +32,9 @@ public class OurAPI {
             String prop = System.getProperty("user.dir");
             if (browserName.equalsIgnoreCase("chrome")) {
                 if (os.equalsIgnoreCase("windows")) {
-                    System.setProperty("webdriver.chrome.driver", prop + "\\src\\driver\\chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", "../Generic/src/driver/chromedriver.exe");
                 } else if (os.equalsIgnoreCase("mac")) {
-                    System.setProperty("webdriver.chrome.driver", prop + "\\src\\driver\\chromedriver");
+                    System.setProperty("webdriver.chrome.driver", prop + "/Generic/src/driver/chromedriver");
                 }
                 driver = new ChromeDriver();
             }
