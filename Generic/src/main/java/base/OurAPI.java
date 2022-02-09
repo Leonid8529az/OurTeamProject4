@@ -12,7 +12,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -34,7 +33,7 @@ public class OurAPI {
                 if (os.equalsIgnoreCase("windows")) {
                     System.setProperty("webdriver.chrome.driver", "../Generic/src/driver/chromedriver.exe");
                 } else if (os.equalsIgnoreCase("mac")) {
-                    System.setProperty("webdriver.chrome.driver", prop + "/Generic/src/driver/chromedriver");
+                    System.setProperty("webdriver.chrome.driver", "../Generic/src/driver/chromedriver");
                 }
                 driver = new ChromeDriver();
             }
@@ -251,11 +250,7 @@ public class OurAPI {
 
     //List of same functions, but they take WebElement as an argument
     public void click(WebElement element) {
-        try {
             element.click();
-        } catch (Exception e) {
-            element.click();
-        }
     }
     public void enterText(WebElement element, String whichTextYouWantToEnter) {
         try {
@@ -364,5 +359,22 @@ public class OurAPI {
             JavascriptExecutor js = ((JavascriptExecutor)driver);
             js.executeScript("arguments[0].scrollIntoView(true)",element);
         }
+    }
+    public void feedDataWithNoClick(String locator, String whichTextYouWantToEnter) {
+        try {
+            driver.findElement(By.xpath(locator)).sendKeys(whichTextYouWantToEnter);
+        } catch (Exception e) {
+            driver.findElement(By.cssSelector(locator)).sendKeys(whichTextYouWantToEnter);
+        }
+    }
+    public void feedDataWithNoClick(WebElement element, String whichTextYouWantToEnter) {
+        try {
+            element.sendKeys(whichTextYouWantToEnter);
+        } catch (Exception e) {
+            element.sendKeys(whichTextYouWantToEnter);
+        }
+    }
+    public void feedDataWithNoClickByID(String locator, String whichTextYouWantToEnter) {
+            driver.findElement(By.id(locator)).sendKeys(whichTextYouWantToEnter);
     }
 }

@@ -35,3 +35,5 @@ to know the index of proper iframe
 26.checkIfIsDisabled() - asserts, if it is disabled.
 27.waitSeconds() - accepts integer, put the thread to sleep for this many seconds.
 28.scrollToView() - accepts webelement or String, scrolls to the element
+29. feedDataWithNoClick() - in case if you need to just insert text and no more actions
+30. feedDataWithNoClickByID() - same, but with the id
