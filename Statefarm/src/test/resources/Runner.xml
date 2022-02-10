@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name = "Amazon Automation" parallel = "false">
-    <parameter name ="OS" value="windows"></parameter>
+<suite name = "State Farm " parallel = "false">
+    <parameter name ="OS" value="mac"></parameter>
     <parameter name ="browserName" value="chrome"></parameter>
     <parameter name ="url" value="https://www.statefarm.com/"></parameter>
 
-    <test name = "Your Test name">
+    <test name = "State Farm Automation">
         <classes>
             <class name = "Team4Pro.AppTest"></class>
         </classes>
