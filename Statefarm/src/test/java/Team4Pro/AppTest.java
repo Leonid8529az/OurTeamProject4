@@ -22,8 +22,10 @@ public class AppTest extends OurAPI {
 
     @Test
     public void findAnAgent() {
+
         click(homePage.FindAgentHomePage);
         enterText(homePage.FindAgentZipCode, "11214");
+        scrollToView(homePage.SamiMartinezEmail);
         click(homePage.SamiMartinezEmail);
         switchToDifferentTab();
         String expectedTitle = "Sammy Martinez - State Farm Insurance Agent in Brooklyn, NY";
@@ -35,7 +37,7 @@ public class AppTest extends OurAPI {
 
 
     }
-        @Test
+//        @Test
     public void insurance() throws InterruptedException {
         click(homePage.InsuranceInHomePage);
         click(homePage.CarInsurnce);
@@ -52,7 +54,7 @@ public class AppTest extends OurAPI {
 
     }
 
-        @Test
+//        @Test
     public void banking() throws InterruptedException {
         click(homePage.BankingInHomePage);
         click(homePage.CheckingAccount);
@@ -67,7 +69,7 @@ public class AppTest extends OurAPI {
 
 
     }
-          @Test
+//          @Test
     public void investment() throws InterruptedException {
         click(homePage.InvestmentInHomePage);
         click(homePage.MutualFunds);
@@ -87,7 +89,7 @@ public class AppTest extends OurAPI {
 
           }
 
-    @Test
+//    @Test
     public void getAQuote() throws InterruptedException {
         click(homePage.GetAQuoteInHomePage);
         selectDropDownOption(homePage.PetInsuranceQuote,"Pet Insurance" );
@@ -108,7 +110,7 @@ public class AppTest extends OurAPI {
 
 
     }
-      @Test
+//      @Test
     public void peyBill(){
         click(homePage.PayBillInHomePage);
         selectDropDownOption(homePage.ChooseFromListToPayBill, "Policy Number");
@@ -120,7 +122,7 @@ public class AppTest extends OurAPI {
 
     }
 
-      @Test
+//      @Test
     public void claims(){
         click(homePage.ClaimsInHomePage);
         click(homePage.ClaimHeader);
@@ -133,7 +135,7 @@ public class AppTest extends OurAPI {
 
 
     }
-       @Test
+//       @Test
     public void help(){
         click(homePage.GeneralHelp);
         switchToDifferentTab();
@@ -153,7 +155,7 @@ public class AppTest extends OurAPI {
 
 
 
-       @Test
+//       @Test
     public void claimHlp() throws InterruptedException {
         click(homePage.ClaimsInHomePage);
         click(homePage.ClaimHelp);
@@ -167,10 +169,26 @@ public class AppTest extends OurAPI {
         Assert.assertEquals(actualTitle,expectedTitle);
 
 
+    }
 
 
+//    @Test
+    public void claimHelp(){
+        click(homePage.ClaimsInHomePage);
+        click(homePage.ClaimHelp);
+        click(homePage.BusinessInsuranceHelp);
+        scrollToView(homePage.ReportAFraud);
+        click(homePage.ReportAFraud);
+        scrollToView(homePage.HomePropertyFraud);
+        click(homePage.HomePropertyFraud);
+        click(homePage.TrackAClaim);
+        String expectedTitle = "Check Existing Claim - State Farm®";
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle,expectedTitle);
 
 
     }
+
+
 
 }

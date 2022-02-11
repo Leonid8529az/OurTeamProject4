@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">State Farm </th></tr>
+<tr><td><a href="#t0">State Farm Automation</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">76,188</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">State Farm </th></tr></tbody><tbody id="t0"><tr><th colspan="4">State Farm Automation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Team4Pro.AppTest</td><td><a href="#m0">insurance</a></td><td rowspan="1">1644595616778</td><td rowspan="1">2527</td></tr><tr><th colspan="4">State Farm Automation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">Team4Pro.AppTest</td><td><a href="#m1">banking</a></td><td rowspan="1">1644595563240</td><td rowspan="1">4146</td></tr><tr class="passedeven"><td><a href="#m2">claimHelp</a></td><td rowspan="1">1644595570880</td><td rowspan="1">4567</td></tr><tr class="passedeven"><td><a href="#m3">claimHlp</a></td><td rowspan="1">1644595579255</td><td rowspan="1">2091</td></tr><tr class="passedeven"><td><a href="#m4">claims</a></td><td rowspan="1">1644595585059</td><td rowspan="1">4213</td></tr><tr class="passedeven"><td><a href="#m5">findAnAgent</a></td><td rowspan="1">1644595592872</td><td rowspan="1">5314</td></tr><tr class="passedeven"><td><a href="#m6">getAQuote</a></td><td rowspan="1">1644595601808</td><td rowspan="1">4365</td></tr><tr class="passedeven"><td><a href="#m7">help</a></td><td rowspan="1">1644595609565</td><td rowspan="1">3642</td></tr><tr class="passedeven"><td><a href="#m8">investment</a></td><td rowspan="1">1644595622591</td><td rowspan="1">6341</td></tr><tr class="passedeven"><td><a href="#m9">peyBill</a></td><td rowspan="1">1644595632605</td><td rowspan="1">1882</td></tr></tbody>
+</table>
+<h2>State Farm Automation</h2><h3 id="m0">Team4Pro.AppTest#insurance</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;panel3&quot; class=&quot;-oneX-panel-button&quot;&gt;...&lt;/button&gt; is not clickable at point (942, 961). Other element would receive the click: &lt;div id=&quot;privacyptext63523&quot; class=&quot;-oneX-global-alert-body optccpatext&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=98.0.4758.80)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;farids-MBP&apos;, ip: &apos;fe80:0:0:0:da:b49f:c4a0:ba47%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3b92d5522eb88ac1a5b5feed562400a, clickElement {id=b87de7c8-2b85-4d71-a690-156340155a05}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/rw/0z3lfqmd66n...}, goog:chromeOptions: {debuggerAddress: localhost:65014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65014/devtoo..., se:cdpVersion: 98.0.4758.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (b3b92d5522eb88ac1a5b5feed562400a)] -&gt; xpath: //button[@type=&quot;button&quot;and text() =&apos;Sports cars&apos;]]
+Session ID: b3b92d5522eb88ac1a5b5feed562400a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at base.OurAPI.click(OurAPI.java:253)
+	at Team4Pro.AppTest.insurance(AppTest.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Team4Pro.AppTest#banking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Team4Pro.AppTest#claimHelp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Team4Pro.AppTest#claimHlp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Team4Pro.AppTest#claims</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Team4Pro.AppTest#findAnAgent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Team4Pro.AppTest#getAQuote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Team4Pro.AppTest#help</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Team4Pro.AppTest#investment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Team4Pro.AppTest#peyBill</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

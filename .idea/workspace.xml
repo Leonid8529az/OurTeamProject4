@@ -5,49 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecae1a73-ca72-46f0-931b-af58b59143bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CodingExamMike" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingExamMike" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/Team4Pro/WebElementsLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/Team4Pro/WebElementsLibrary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Team4Pro/LoginFunctionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/Team4Pro/LoginFunctionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/OurAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/OurAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/TestTeTS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/OurAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/OurAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statefarm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statefarm/src/main/java/Team4Pro/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Walmart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PocketsBootcampWebAndMobile" beforeDir="false" afterPath="$PROJECT_DIR$/../PocketsBootcampWebAndMobile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PocketsCucumberTesting" beforeDir="false" afterPath="$PROJECT_DIR$/../PocketsCucumberTesting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PocketsTestAPI" beforeDir="false" afterPath="$PROJECT_DIR$/../PocketsTestAPI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TeamProject" beforeDir="false" afterPath="$PROJECT_DIR$/../TeamProject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TeamProject7" beforeDir="false" afterPath="$PROJECT_DIR$/../TeamProject7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pocketsMobileTest" beforeDir="false" afterPath="$PROJECT_DIR$/../pocketsMobileTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testCucumberProjectBeforeMentor" beforeDir="false" afterPath="$PROJECT_DIR$/../testCucumberProjectBeforeMentor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webAutomation" beforeDir="false" afterPath="$PROJECT_DIR$/../webAutomation" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/Facebook/target/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/Generic/target/" />
-    <ignored path="$PROJECT_DIR$/Statefarm/target/" />
-    <ignored path="$PROJECT_DIR$/Alibaba/target/" />
-    <ignored path="$PROJECT_DIR$/Walmart/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,203 +18,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSecurity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1764">
-              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Statefarm/src/main/java/Team4Pro/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2676">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7014">
-              <caret line="387" column="5" selection-start-line="387" selection-start-column="5" selection-end-line="387" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9708#9709#0" expanded="true" />
-                <element signature="e#9743#9744#0" expanded="true" />
-                <element signature="e#10066#10067#0" expanded="true" />
-                <element signature="e#10106#10107#0" expanded="true" />
-                <element signature="e#13990#13991#0" expanded="true" />
-                <element signature="e#14051#14052#0" expanded="true" />
-                <element signature="e#14104#14105#0" expanded="true" />
-                <element signature="e#14135#14136#0" expanded="true" />
-                <element signature="e#14188#14189#0" expanded="true" />
-                <element signature="e#14236#14237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1887#1888#0" expanded="true" />
-                <element signature="e#1953#1954#0" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2149#2150#0" expanded="true" />
-                <element signature="e#2194#2195#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2329#2330#0" expanded="true" />
-                <element signature="e#2372#2373#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#2482#2483#0" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-                <element signature="e#2636#2637#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2712#2713#0" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-                <element signature="e#2790#2791#0" expanded="true" />
-                <element signature="e#2834#2835#0" expanded="true" />
-                <element signature="e#2883#2884#0" expanded="true" />
-                <element signature="e#2924#2925#0" expanded="true" />
-                <element signature="e#2959#2960#0" expanded="true" />
-                <element signature="e#3001#3002#0" expanded="true" />
-                <element signature="e#3052#3053#0" expanded="true" />
-                <element signature="e#3093#3094#0" expanded="true" />
-                <element signature="e#3135#3136#0" expanded="true" />
-                <element signature="e#5136#5137#0" expanded="true" />
-                <element signature="e#5177#5178#0" expanded="true" />
-                <element signature="e#5220#5221#0" expanded="true" />
-                <element signature="e#5251#5252#0" expanded="true" />
-                <element signature="e#5302#5303#0" expanded="true" />
-                <element signature="e#5341#5342#0" expanded="true" />
-                <element signature="e#5401#5402#0" expanded="true" />
-                <element signature="e#5454#5455#0" expanded="true" />
-                <element signature="e#5507#5508#0" expanded="true" />
-                <element signature="e#5548#5549#0" expanded="true" />
-                <element signature="e#5603#5604#0" expanded="true" />
-                <element signature="e#5651#5652#0" expanded="true" />
-                <element signature="e#5714#5715#0" expanded="true" />
-                <element signature="e#5779#5780#0" expanded="true" />
-                <element signature="e#5834#5835#0" expanded="true" />
-                <element signature="e#5882#5883#0" expanded="true" />
-                <element signature="e#5945#5946#0" expanded="true" />
-                <element signature="e#6010#6011#0" expanded="true" />
-                <element signature="e#6069#6070#0" expanded="true" />
-                <element signature="e#6121#6122#0" expanded="true" />
-                <element signature="e#6304#6305#0" expanded="true" />
-                <element signature="e#6338#6339#0" expanded="true" />
-                <element signature="e#6385#6386#0" expanded="true" />
-                <element signature="e#6420#6421#0" expanded="true" />
-                <element signature="e#6472#6473#0" expanded="true" />
-                <element signature="e#6524#6525#0" expanded="true" />
-                <element signature="e#6577#6578#0" expanded="true" />
-                <element signature="e#6618#6619#0" expanded="true" />
-                <element signature="e#6667#6668#0" expanded="true" />
-                <element signature="e#6708#6709#0" expanded="true" />
-                <element signature="e#8107#8108#0" expanded="true" />
-                <element signature="e#8140#8141#0" expanded="true" />
-                <element signature="e#8191#8192#0" expanded="true" />
-                <element signature="e#8250#8251#0" expanded="true" />
-                <element signature="e#8303#8304#0" expanded="true" />
-                <element signature="e#8349#8350#0" expanded="true" />
-                <element signature="e#8403#8404#0" expanded="true" />
-                <element signature="e#8450#8451#0" expanded="true" />
-                <element signature="e#8502#8503#0" expanded="true" />
-                <element signature="e#8547#8548#0" expanded="true" />
-                <element signature="e#8607#8608#0" expanded="true" />
-                <element signature="e#8666#8667#0" expanded="true" />
-                <element signature="e#8714#8715#0" expanded="true" />
-                <element signature="e#8764#8765#0" expanded="true" />
-                <element signature="e#8810#8811#0" expanded="true" />
-                <element signature="e#8844#8845#0" expanded="true" />
-                <element signature="e#8892#8893#0" expanded="true" />
-                <element signature="e#8928#8929#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -588,7 +354,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -607,18 +373,6 @@
       <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Statefarm\src\test" />
       <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Facebook\src\test" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml">
     <configuration name="AppTest.findAnAgent" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -696,7 +450,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -779,14 +533,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>

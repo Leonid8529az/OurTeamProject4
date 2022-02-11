@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [State Farm ]">
+  <parameter name="OS" value="mac"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://www.statefarm.com/"/>
+  <test thread-count="5" name="State Farm Automation(failed)">
+    <classes>
+      <class name="Team4Pro.AppTest">
+        <methods>
+          <include name="insurance"/>
+          <include name="libraryDelete"/>
+          <include name="librarySetUp"/>
+          <include name="startingPoint"/>
+          <include name="endPoint"/>
+        </methods>
+      </class> <!-- Team4Pro.AppTest -->
+    </classes>
+  </test> <!-- State Farm Automation(failed) -->
+</suite> <!-- Failed suite [State Farm ] -->
