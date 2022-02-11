@@ -9,6 +9,8 @@
     <test name = "Your Test name">
         <classes>
             <class name = "Team4Pro.LoginFunctionality"></class>
+            <class name="Team4Pro.ProfileSecurity"></class>
+            <class name="Team4Pro.ProfileSettings"></class>
         </classes>
     </test>
 

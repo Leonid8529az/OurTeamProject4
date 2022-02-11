@@ -377,4 +377,13 @@ public class OurAPI {
     public void feedDataWithNoClickByID(String locator, String whichTextYouWantToEnter) {
             driver.findElement(By.id(locator)).sendKeys(whichTextYouWantToEnter);
     }
+    public void clearTextField(String locator) {
+        driver.findElement(By.xpath(locator)).clear();
+    }
+    public void clearTextField(WebElement element) {
+        element.clear();
+    }
+    public void switchToIFrame(WebElement element) {
+        driver.switchTo().frame(element);
+    }
 }

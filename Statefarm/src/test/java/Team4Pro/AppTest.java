@@ -40,6 +40,7 @@ public class AppTest extends OurAPI {
         click(homePage.InsuranceInHomePage);
         click(homePage.CarInsurnce);
         scrollToView(homePage.SportCar);
+        waitSeconds(1);
         click(homePage.SportCar);
         click(homePage.SportCarArticle);
         click(homePage.FindAgentForSportCar);
@@ -132,22 +133,6 @@ public class AppTest extends OurAPI {
 
 
     }
-      @Test
-    public void claimHelp(){
-        click(homePage.ClaimsInHomePage);
-        click(homePage.ClaimHelp);
-        click(homePage.BusinessInsuranceHelp);
-        scrollToView(homePage.ReportAFraud);
-        click(homePage.ReportAFraud);
-        scrollToView(homePage.HomePropertyFraud);
-        click(homePage.HomePropertyFraud);
-        click(homePage.TrackAClaim);
-        String expectedTitle = "Check Existing Claim - State Farm®";
-        String actualTitle = driver.getTitle();
-        Assert.assertEquals(actualTitle,expectedTitle);
-
-
-    }
        @Test
     public void help(){
         click(homePage.GeneralHelp);
@@ -156,7 +141,7 @@ public class AppTest extends OurAPI {
         enterText(homePage.PhoneNumberToRetreiveId, "2123562735");
         enterText(homePage.DOBToRetreiveId, "12-12-1970");
         enterText(homePage.EmailToRetreiveId, "fraif@gmail.com");
-        click(homePage.PreferText);;
+        click(homePage.PreferText);
         Assert.assertTrue(homePage.PreferText.isEnabled());
         click(homePage.Submit);
 
