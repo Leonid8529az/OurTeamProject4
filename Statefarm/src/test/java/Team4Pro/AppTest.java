@@ -37,14 +37,16 @@ public class AppTest extends OurAPI {
 
 
     }
-//        @Test
+        @Test
     public void insurance() throws InterruptedException {
         click(homePage.InsuranceInHomePage);
         click(homePage.CarInsurnce);
         scrollToView(homePage.SportCar);
-        waitSeconds(1);
+        waitSeconds(2);
         click(homePage.SportCar);
+        waitSeconds(2);
         click(homePage.SportCarArticle);
+        waitSeconds(3);
         click(homePage.FindAgentForSportCar);
 //        enterText(homePage.ZipCodeForSpotCar, "11214");
         String expectedTitle = "Find State Farm® Agents Near You - State Farm®";
@@ -54,7 +56,7 @@ public class AppTest extends OurAPI {
 
     }
 
-//        @Test
+        @Test
     public void banking() throws InterruptedException {
         click(homePage.BankingInHomePage);
         click(homePage.CheckingAccount);
@@ -69,7 +71,7 @@ public class AppTest extends OurAPI {
 
 
     }
-//          @Test
+          @Test
     public void investment() throws InterruptedException {
         click(homePage.InvestmentInHomePage);
         click(homePage.MutualFunds);
@@ -89,7 +91,7 @@ public class AppTest extends OurAPI {
 
           }
 
-//    @Test
+    @Test
     public void getAQuote() throws InterruptedException {
         click(homePage.GetAQuoteInHomePage);
         selectDropDownOption(homePage.PetInsuranceQuote,"Pet Insurance" );
@@ -110,7 +112,7 @@ public class AppTest extends OurAPI {
 
 
     }
-//      @Test
+      @Test
     public void peyBill(){
         click(homePage.PayBillInHomePage);
         selectDropDownOption(homePage.ChooseFromListToPayBill, "Policy Number");
@@ -122,7 +124,7 @@ public class AppTest extends OurAPI {
 
     }
 
-//      @Test
+      @Test
     public void claims(){
         click(homePage.ClaimsInHomePage);
         click(homePage.ClaimHeader);
@@ -135,7 +137,7 @@ public class AppTest extends OurAPI {
 
 
     }
-//       @Test
+       @Test
     public void help(){
         click(homePage.GeneralHelp);
         switchToDifferentTab();
@@ -155,13 +157,16 @@ public class AppTest extends OurAPI {
 
 
 
-//       @Test
+       @Test
     public void claimHlp() throws InterruptedException {
         click(homePage.ClaimsInHomePage);
         click(homePage.ClaimHelp);
         click(homePage.HomeClaims);
+        waitSeconds(2);
         scrollToView(homePage.SeeTheSteps);
+        waitSeconds(3);
         click(homePage.SeeTheSteps);
+        waitSeconds(3);
         click(homePage.NextStep);
         click(homePage.PreviousStep);
         String expectedTitle = "Claims Help - State Farm® - State Farm®";
@@ -172,7 +177,7 @@ public class AppTest extends OurAPI {
     }
 
 
-//    @Test
+    @Test
     public void claimHelp(){
         click(homePage.ClaimsInHomePage);
         click(homePage.ClaimHelp);

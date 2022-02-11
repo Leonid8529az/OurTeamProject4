@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ecae1a73-ca72-46f0-931b-af58b59143bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/Runner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Statefarm/target/test-classes/Team4Pro/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/target/test-classes/Team4Pro/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
