@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Statefarm" />
-        <module name="Facebook" />
-        <module name="Generic" />
         <module name="Walmart" />
         <module name="Alibaba" />
+        <module name="Facebook" />
+        <module name="Generic" />
       </profile>
     </annotationProcessing>
   </component>
