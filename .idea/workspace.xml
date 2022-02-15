@@ -6,19 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ecae1a73-ca72-46f0-931b-af58b59143bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CodingExamMike" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingExamMike" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/Team4Pro/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/Team4Pro/WebElementsLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/Team4Pro/WebElementsLibrary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/Team4Pro/LoginFunctionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/Team4Pro/LoginFunctionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/OurAPI.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/ReadMe.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java" afterDir="false" />
@@ -27,10 +27,17 @@
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/OurAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/OurAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Statefarm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Statefarm/src/main/java/Team4Pro/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/StateFarmTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Walmart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/src/main/java/Team4Pro/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/src/test/java/Team4Pro/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/target/classes/Team4Pro/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/target/test-classes/Runner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Walmart/target/test-classes/Team4Pro/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PocketsBootcampWebAndMobile" beforeDir="false" afterPath="$PROJECT_DIR$/../PocketsBootcampWebAndMobile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PocketsCucumberTesting" beforeDir="false" afterPath="$PROJECT_DIR$/../PocketsCucumberTesting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PocketsTestAPI" beforeDir="false" afterPath="$PROJECT_DIR$/../PocketsTestAPI" afterDir="false" />
@@ -59,28 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSecurity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1764">
-              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="527">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,33 +78,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/StateFarmTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
+            <state relative-caret-position="105">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Statefarm/src/main/java/Team4Pro/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/GetProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2676">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="504">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,132 +104,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7014">
-              <caret line="387" column="5" selection-start-line="387" selection-start-column="5" selection-end-line="387" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="106" column="51" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9708#9709#0" expanded="true" />
-                <element signature="e#9743#9744#0" expanded="true" />
-                <element signature="e#10066#10067#0" expanded="true" />
-                <element signature="e#10106#10107#0" expanded="true" />
-                <element signature="e#13990#13991#0" expanded="true" />
-                <element signature="e#14051#14052#0" expanded="true" />
-                <element signature="e#14104#14105#0" expanded="true" />
-                <element signature="e#14135#14136#0" expanded="true" />
-                <element signature="e#14188#14189#0" expanded="true" />
-                <element signature="e#14236#14237#0" expanded="true" />
+                <element signature="e#6891#6892#0" expanded="true" />
+                <element signature="e#6965#6966#0" expanded="true" />
+                <element signature="e#7630#7631#0" expanded="true" />
+                <element signature="e#8757#8758#0" expanded="true" />
+                <element signature="e#8871#8872#0" expanded="true" />
+                <element signature="e#10665#10666#0" expanded="true" />
+                <element signature="e#11500#11501#0" expanded="true" />
+                <element signature="e#14361#14362#0" expanded="true" />
+                <element signature="e#14724#14725#0" expanded="true" />
+                <element signature="e#18669#18670#0" expanded="true" />
+                <element signature="e#18753#18754#0" expanded="true" />
+                <element signature="e#18854#18855#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="63">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="56" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml">
+        <entry file="file://$PROJECT_DIR$/Target/src/test/resources/Runner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="315">
+              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1887#1888#0" expanded="true" />
-                <element signature="e#1953#1954#0" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2149#2150#0" expanded="true" />
-                <element signature="e#2194#2195#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2329#2330#0" expanded="true" />
-                <element signature="e#2372#2373#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#2482#2483#0" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-                <element signature="e#2636#2637#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2712#2713#0" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-                <element signature="e#2790#2791#0" expanded="true" />
-                <element signature="e#2834#2835#0" expanded="true" />
-                <element signature="e#2883#2884#0" expanded="true" />
-                <element signature="e#2924#2925#0" expanded="true" />
-                <element signature="e#2959#2960#0" expanded="true" />
-                <element signature="e#3001#3002#0" expanded="true" />
-                <element signature="e#3052#3053#0" expanded="true" />
-                <element signature="e#3093#3094#0" expanded="true" />
-                <element signature="e#3135#3136#0" expanded="true" />
-                <element signature="e#5136#5137#0" expanded="true" />
-                <element signature="e#5177#5178#0" expanded="true" />
-                <element signature="e#5220#5221#0" expanded="true" />
-                <element signature="e#5251#5252#0" expanded="true" />
-                <element signature="e#5302#5303#0" expanded="true" />
-                <element signature="e#5341#5342#0" expanded="true" />
-                <element signature="e#5401#5402#0" expanded="true" />
-                <element signature="e#5454#5455#0" expanded="true" />
-                <element signature="e#5507#5508#0" expanded="true" />
-                <element signature="e#5548#5549#0" expanded="true" />
-                <element signature="e#5603#5604#0" expanded="true" />
-                <element signature="e#5651#5652#0" expanded="true" />
-                <element signature="e#5714#5715#0" expanded="true" />
-                <element signature="e#5779#5780#0" expanded="true" />
-                <element signature="e#5834#5835#0" expanded="true" />
-                <element signature="e#5882#5883#0" expanded="true" />
-                <element signature="e#5945#5946#0" expanded="true" />
-                <element signature="e#6010#6011#0" expanded="true" />
-                <element signature="e#6069#6070#0" expanded="true" />
-                <element signature="e#6121#6122#0" expanded="true" />
-                <element signature="e#6304#6305#0" expanded="true" />
-                <element signature="e#6338#6339#0" expanded="true" />
-                <element signature="e#6385#6386#0" expanded="true" />
-                <element signature="e#6420#6421#0" expanded="true" />
-                <element signature="e#6472#6473#0" expanded="true" />
-                <element signature="e#6524#6525#0" expanded="true" />
-                <element signature="e#6577#6578#0" expanded="true" />
-                <element signature="e#6618#6619#0" expanded="true" />
-                <element signature="e#6667#6668#0" expanded="true" />
-                <element signature="e#6708#6709#0" expanded="true" />
-                <element signature="e#8107#8108#0" expanded="true" />
-                <element signature="e#8140#8141#0" expanded="true" />
-                <element signature="e#8191#8192#0" expanded="true" />
-                <element signature="e#8250#8251#0" expanded="true" />
-                <element signature="e#8303#8304#0" expanded="true" />
-                <element signature="e#8349#8350#0" expanded="true" />
-                <element signature="e#8403#8404#0" expanded="true" />
-                <element signature="e#8450#8451#0" expanded="true" />
-                <element signature="e#8502#8503#0" expanded="true" />
-                <element signature="e#8547#8548#0" expanded="true" />
-                <element signature="e#8607#8608#0" expanded="true" />
-                <element signature="e#8666#8667#0" expanded="true" />
-                <element signature="e#8714#8715#0" expanded="true" />
-                <element signature="e#8764#8765#0" expanded="true" />
-                <element signature="e#8810#8811#0" expanded="true" />
-                <element signature="e#8844#8845#0" expanded="true" />
-                <element signature="e#8892#8893#0" expanded="true" />
-                <element signature="e#8928#8929#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Target/src/test/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -266,15 +189,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Walmart/src/test/java/Team4Pro/AppTest.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/Team4Pro/AppTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/resources/log4j2" />
         <option value="$PROJECT_DIR$/Generic/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/TestTeTS.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml" />
-        <option value="$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/OurAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/ReadMe.txt" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/App.java" />
@@ -287,11 +205,31 @@
         <option value="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReadMe.txt" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/LoginFunctionality.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/Walmart/src/main/java/Team4Pro/webPage.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/java/Team4Pro/AppTest.java" />
         <option value="$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/java/Team4Pro/Walmart.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/Target/pom.xml" />
+        <option value="$PROJECT_DIR$/Target/src/test/java/Team4Pro/AppTest.java" />
+        <option value="$PROJECT_DIR$/Target/src/main/java/Team4Pro/webPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/database/ConnectDB.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/GetProperties.java" />
+        <option value="$PROJECT_DIR$/Alibaba/src/test/resources/config.properties" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/config.properties" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml" />
         <option value="$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/Target/src/test/resources/Runner.xml" />
       </list>
     </option>
   </component>
@@ -300,7 +238,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Target" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Target" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -320,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -329,257 +276,11 @@
               <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
               <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Team4Pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Team4Pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Team4Pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Team4Pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Statefarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Team4Pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Team4Pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OurProjectTeam4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OurProjectTeam4" type="462c0819:PsiDirectoryNode" />
-              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -588,24 +289,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Target/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Target\src\test\resources" />
+      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Statefarm\src\test\resources" />
+      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Facebook\src\test\resources" />
+      <recent name="$PROJECT_DIR$/Generic/src/driver" />
+      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Generic\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Generic\src\main\java\base" />
       <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Alibaba\src\test" />
       <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\.idea" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/src/driver" />
-      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Generic\src" />
-      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Walmart\src\test" />
-      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Statefarm\src\test" />
-      <recent name="C:\Users\wormi\IdeaProjects\OurProjectTeam4\Facebook\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -620,21 +322,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml">
-    <configuration name="AppTest.findAnAgent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Statefarm" />
+  <component name="RunManager" selected="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml">
+    <configuration name="DataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.DataReader" />
+      <module name="Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Team4Pro.webPage" />
+      <module name="Target" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Team4Pro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Team4Pro" />
-      <option name="MAIN_CLASS_NAME" value="Team4Pro.AppTest" />
-      <option name="METHOD_NAME" value="findAnAgent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -649,9 +359,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Statefarm" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml" />
+    <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Target/src/test/resources/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Target" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Target/src/test/resources/Runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -659,27 +369,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/target/test-classes/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml" />
+    <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Walmart/src/test/resources/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Target" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginFunctionality.validCredentialsLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Team4Pro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Team4Pro" />
-      <option name="MAIN_CLASS_NAME" value="Team4Pro.LoginFunctionality" />
-      <option name="METHOD_NAME" value="validCredentialsLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -688,11 +381,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" />
         <item itemvalue="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" />
-        <item itemvalue="TestNG.AppTest.findAnAgent" />
-        <item itemvalue="TestNG.LoginFunctionality.validCredentialsLogin" />
-        <item itemvalue="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/target/test-classes/Runner.xml" />
+        <item itemvalue="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Target/src/test/resources/Runner.xml" />
+        <item itemvalue="Application.DataReader" />
+        <item itemvalue="TestNG.C:/Users/wormi/IdeaProjects/OurProjectTeam4/Walmart/src/test/resources/Runner.xml" />
+        <item itemvalue="Application.webPage" />
       </list>
     </recent_temporary>
   </component>
@@ -711,47 +404,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 15m 27s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 10h 04m 13s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 52m 22s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 31m 49s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 54m 40s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 33m 23s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 56m 01s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 33m 53s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 56m 29s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 34m 21s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 57m 25s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 37m 46s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 57m 42s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 39m 29s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 08h 58m 56s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 42m 33s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 09h 06m 29s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 44m 48s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Statefarm_src_test_resources_Runner_xml - 2022.02.11 at 09h 08m 47s.xml">
-      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Statefarm/src/test/resources/Runner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_wormi_IdeaProjects_OurProjectTeam4_Facebook_src_test_resources_Runner_xml - 2022.02.15 at 13h 48m 33s.xml">
+      <configuration name="C:/Users/wormi/IdeaProjects/OurProjectTeam4/Facebook/src/test/resources/Runner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28954422" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30965146" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067025" side_tool="true" weight="0.32904148" />
@@ -807,27 +499,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/Team4Pro/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/Team4Pro/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/target/classes/Team4Pro/App.class" />
-    <entry file="file://$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-    <entry file="file://$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    <entry file="file://$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-    <entry file="file://$PROJECT_DIR$/.idea/log4j2" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/log4j2" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestTeTS.java" />
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/resources/Runner.xml" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,22 +507,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OurProject/Alibaba/src/main/java/Team4Pro/App.java" />
     <entry file="file://$PROJECT_DIR$/OurProject/Generic/src/main/java/OurAPI.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/TestDir.java" />
     <entry file="file://$PROJECT_DIR$/Alibaba/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -867,29 +524,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/App.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Statefarm/target/classes/Team4Pro/App.class" />
     <entry file="file://$PROJECT_DIR$/Statefarm/target/test-classes/Runner.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -905,20 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/Team4Pro/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/Team4Pro/App.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.1.1/selenium-api-4.1.1.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -926,24 +549,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/jarRepositories.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="945">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurProjectTeam4.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml" />
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        <state relative-caret-position="168">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/Runner.xml">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statefarm/src/main/java/Team4Pro/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/Team4Pro/Target.java" />
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/Team4Pro/webPage.java" />
+    <entry file="file://$PROJECT_DIR$/Target/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target/src/main/java/Team4Pro/webPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="21" selection-start-line="32" selection-start-column="12" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/Team4Pro/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2667">
+          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/Team4Pro/WebElementsLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
+        <state relative-caret-position="2247">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1887#1888#0" expanded="true" />
@@ -1043,10 +723,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Team4Pro/ProfileSettings.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2555">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1517#1525#0" expanded="true" />
+            <element signature="e#2389#2397#0" expanded="true" />
+            <element signature="e#4223#4231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statefarm/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/GetProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/StateFarmTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1055,47 +841,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/OurAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7014">
-          <caret line="387" column="5" selection-start-line="387" selection-start-column="5" selection-end-line="387" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="106" column="51" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="e#9743#9744#0" expanded="true" />
-            <element signature="e#10066#10067#0" expanded="true" />
-            <element signature="e#10106#10107#0" expanded="true" />
-            <element signature="e#13990#13991#0" expanded="true" />
-            <element signature="e#14051#14052#0" expanded="true" />
-            <element signature="e#14104#14105#0" expanded="true" />
-            <element signature="e#14135#14136#0" expanded="true" />
-            <element signature="e#14188#14189#0" expanded="true" />
-            <element signature="e#14236#14237#0" expanded="true" />
+            <element signature="e#6891#6892#0" expanded="true" />
+            <element signature="e#6965#6966#0" expanded="true" />
+            <element signature="e#7630#7631#0" expanded="true" />
+            <element signature="e#8757#8758#0" expanded="true" />
+            <element signature="e#8871#8872#0" expanded="true" />
+            <element signature="e#10665#10666#0" expanded="true" />
+            <element signature="e#11500#11501#0" expanded="true" />
+            <element signature="e#14361#14362#0" expanded="true" />
+            <element signature="e#14724#14725#0" expanded="true" />
+            <element signature="e#18669#18670#0" expanded="true" />
+            <element signature="e#18753#18754#0" expanded="true" />
+            <element signature="e#18854#18855#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Statefarm/src/main/java/Team4Pro/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2676">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Statefarm/src/test/java/Team4Pro/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/Runner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/Runner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Statefarm/src/test/resources/Runner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="147">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Target/src/test/resources/Runner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1149,7 +945,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Facebook</last-edited>
+          <last-edited>Target</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

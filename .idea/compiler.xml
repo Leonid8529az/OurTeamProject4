@@ -9,7 +9,7 @@
         <module name="Statefarm" />
         <module name="Facebook" />
         <module name="Generic" />
-        <module name="Walmart" />
+        <module name="Target" />
         <module name="Alibaba" />
       </profile>
     </annotationProcessing>

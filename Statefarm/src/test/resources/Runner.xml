@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "State Farm " parallel = "false">
-    <parameter name ="OS" value="mac"></parameter>
+    <parameter name="username" value="YourUserNameHere"></parameter>
+    <parameter name="password" value="YourPasswordHere"></parameter>
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="cloudEnvName" value="browserstack"></parameter>
+    <parameter name="os_version" value="Sierra"></parameter>
+    <parameter name ="OS" value="OS X"></parameter>
     <parameter name ="browserName" value="chrome"></parameter>
     <parameter name ="url" value="https://www.statefarm.com/"></parameter>
 
     <test name = "State Farm Automation">
         <classes>
-            <class name = "Team4Pro.AppTest"></class>
+            <class name = "Team4Pro.StateFarmTesting"></class>
         </classes>
     </test>
 

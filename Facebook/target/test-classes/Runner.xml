@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "Amazon Automation" parallel = "false">
+    <parameter name="username" value="bsuser_PskSnr"></parameter>
+    <parameter name="password" value="AeP1oDKZxXc1WsczcyLR"></parameter>
+    <parameter name="useCloudEnv" value="true"></parameter>
+    <parameter name="cloudEnvName" value="browserstack"></parameter>
+    <parameter name="os_version" value="10"></parameter>
+    <parameter name="browserVersion" value="98"></parameter>
     <parameter name ="OS" value="windows"></parameter>
     <parameter name ="browserName" value="chrome"></parameter>
     <parameter name ="url" value="https://www.facebook.com/"></parameter>

@@ -6,17 +6,16 @@
     <parameter name="useCloudEnv" value="false"></parameter>
     <parameter name="cloudEnvName" value="browserstack"></parameter>
     <parameter name="os_version" value="10"></parameter>
-    <parameter name="browserVersion" value="98"></parameter>
     <parameter name ="OS" value="windows"></parameter>
     <parameter name ="browserName" value="chrome"></parameter>
-    <parameter name ="url" value="https://www.alibaba.com/"></parameter>
+    <parameter name ="url" value="https://www.target.com/"></parameter>
 
-    <!-- (remove these line to deactivate comment)
+
     <test name = "Your Test name">
         <classes>
-            <class name = "Your class name"></class>
+            <class name = "Team4Pro.AppTest"></class>
         </classes>
     </test>
-     (remove these line to deactivate comment)  -->
+
 
 </suite>
