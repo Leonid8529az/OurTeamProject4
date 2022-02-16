@@ -105,14 +105,15 @@ public class OurAPI {
                                   @Optional("https://www.google.com/") String url) throws MalformedURLException {
             String browserstackUsername = username;
             String browserstackPassword = password;
-            if(useCloudEnv == true){
-                if(cloudEnvName.equalsIgnoreCase("browserstack")){
+            if(useCloudEnv == true) {
+                if (cloudEnvName.equalsIgnoreCase("browserstack")) {
                     getCloudDriver(cloudEnvName, browserstackUsername, browserstackPassword, OS, os_version, browserName, browserVersion);
-                }else if(cloudEnvName.equalsIgnoreCase("saucelabs")){
+                } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
                     getCloudDriver(cloudEnvName, "", "", OS, os_version, browserName, browserVersion);
-                } else{
+                }
+            }else{
                 getDriver(OS, browserName);
-            }
+
             }
             System.out.println("---------------------------------------------------");
             driver.manage().window().maximize();
