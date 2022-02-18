@@ -1,2 +1,4 @@
-package Team4Pro;public class InvestmentTest {
+package Team4Pro;
+
+public class InvestmentTest {
 }

@@ -1,4 +1,4 @@
-package Team4Pro.otherPages;
+package Team4Pro.bankingPages;
 
 import base.OurAPI;
 import org.openqa.selenium.WebDriver;
@@ -19,9 +19,24 @@ public class AgentNearBy extends OurAPI {
     @FindBy(xpath = "//*[text()='Get Directions'and@title='Sammy Martinez']")
     WebElement sammyMartinezDirection;
     @FindBy(xpath = "//*[text()='Email Agent'and@title='Sammy Martinez']")
+    public
     WebElement getSammyMartinezEmail;
+    @FindBy(xpath = "//*[@id='contactAgentNameField']")
+    WebElement nameFieldToEmailAgent;
+    @FindBy(xpath = "//*[@id='contactAgentMailorPhoneField']")
+    WebElement emailFieldToEmailAgent;
+    @FindBy(xpath = "//*[@id='contactAgentMessageField']")
+    WebElement textToEmail;
+    @FindBy(xpath = "//*[@id='contactPageSendEmailBtn']")
+    public
+    WebElement sendEmailToAgent;
 
     public void setSammyMartinezWebsite(){click(sammyMartinezWebsite);}
     public void setSammyMartinezDirection(){click(sammyMartinezDirection);}
     public void setGetSammyMartinezEmail(){click(getSammyMartinezEmail);}
+    public void setNameFieldToEmailAgent(String name){enterText(nameFieldToEmailAgent,name);}
+    public void setEmailFieldToEmailAgent(String email){enterText(emailFieldToEmailAgent,email);}
+    public void setTextToEmail(String text){enterText(textToEmail,text);}
+    public void setSendEmailToAgent(){click(sendEmailToAgent);}
+
 }

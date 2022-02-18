@@ -1,2 +1,5 @@
-package Team4Pro.homePage;public class Investment {
+package Team4Pro.homePage;
+
+public class Investment {
+
 }

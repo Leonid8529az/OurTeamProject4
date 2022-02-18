@@ -12,7 +12,7 @@
 
     <test name = "State Farm Automation">
         <classes>
-            <class name = "Team4Pro.StateFarmTesting"></class>
+            <class name = "Team4Pro.InsuranceTest"></class>
         </classes>
     </test>
 

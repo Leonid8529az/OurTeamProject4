@@ -1,4 +1,4 @@
-package Team4Pro.otherPages;
+package Team4Pro.bankingPages;
 
 import base.OurAPI;
 import org.openqa.selenium.WebDriver;
