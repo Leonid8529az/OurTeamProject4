@@ -20,7 +20,7 @@ public class StateFarmTesting extends OurAPI {
         System.gc();
     }
 
-    @Test
+//    @Test
     public void findAnAgent() {
         click(homePage.FindAgentHomePage);
         enterText(homePage.FindAgentZipCode, "11214");
@@ -133,7 +133,7 @@ public class StateFarmTesting extends OurAPI {
 
 
     }
-       //@Test
+       @Test
     public void help(){
         click(homePage.GeneralHelp);
         switchToDifferentTab();
@@ -153,7 +153,7 @@ public class StateFarmTesting extends OurAPI {
 
 
 
-       @Test
+//       @Test
     public void claimHlp() throws InterruptedException {
         click(homePage.ClaimsInHomePage);
         click(homePage.ClaimHelp);
