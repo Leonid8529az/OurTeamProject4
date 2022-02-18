@@ -13,11 +13,15 @@ public class CreditCards extends OurAPI {
     }
 
 
-    @FindBy(xpath = "(//*[@class='-oneX-btn-secondary__anchor -oneX-btn-fit-content'])[1]")
+    @FindBy(xpath = "//body/div[@id='content']/section[@id='cc-masthead']/div[1]/div[1]/div[3]/p[2]/span[1]/a[1]")
     public
     WebElement learnMoreAboutCashRewardVisa;
+    @FindBy(xpath = "//h2[@id='neighbor']")
+            public
+    WebElement neighborVisaCard;
 
     public void setLearnMoreAboutCashRewardVisa(){click(learnMoreAboutCashRewardVisa);}
+    public void setNeighborVisaCard(){}
 
 
 

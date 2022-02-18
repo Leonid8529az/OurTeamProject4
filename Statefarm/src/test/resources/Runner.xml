@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "State Farm " parallel = "false">
-    <parameter name="username" value="YourUserNameHere"></parameter>
-    <parameter name="password" value="YourPasswordHere"></parameter>
+    <parameter name="username" value="faridgraiche_HCySAw"></parameter>
+    <parameter name="password" value="G9khGXmZzhkyzakspndq"></parameter>
     <parameter name="useCloudEnv" value="false"></parameter>
     <parameter name="cloudEnvName" value="browserstack"></parameter>
     <parameter name="os_version" value="Sierra"></parameter>
@@ -12,6 +12,7 @@
 
     <test name = "State Farm Automation">
         <classes>
+            <class name = "Team4Pro.BankingTest"></class>
             <class name = "Team4Pro.InsuranceTest"></class>
         </classes>
     </test>

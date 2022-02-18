@@ -13,7 +13,7 @@ public class WorkersCompensation extends OurAPI {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//*[@class=\"-oneX-link--block\"and text()='Learn how to lower your risks']")
+    @FindBy(xpath = "//a[contains(text(),'Learn how to lower your risks')]")
     public
     WebElement learnRisks;
     public void setLearnRisks(){click(learnRisks);}
