@@ -7,16 +7,16 @@
     <parameter name="cloudEnvName" value="browserstack"></parameter>
     <parameter name="os_version" value="10"></parameter>
     <parameter name="browserVersion" value="98"></parameter>
-    <parameter name ="OS" value="windows"></parameter>
+    <parameter name ="OS" value="WINDOWS"></parameter>
     <parameter name ="browserName" value="chrome"></parameter>
     <parameter name ="url" value="https://www.facebook.com/"></parameter>
 
 
     <test name = "Your Test name">
         <classes>
-            <class name = "Team4Pro.LoginFunctionality"></class>
-            <class name="Team4Pro.ProfileSecurity"></class>
-            <class name="Team4Pro.ProfileSettings"></class>
+           <class name = "Team4Pro.LoginFunctionality"></class>
+           <class name="Team4Pro.ProfileSecurity"></class>
+           <class name="Team4Pro.ProfileSettings"></class>
         </classes>
     </test>
 
