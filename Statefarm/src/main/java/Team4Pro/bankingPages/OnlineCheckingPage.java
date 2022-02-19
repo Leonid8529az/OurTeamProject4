@@ -16,7 +16,7 @@ public class OnlineCheckingPage extends OurAPI {
 
 
 
-    @FindBy(xpath = "//a[contains(text(),'Learn more about Easy Checking Accounts')]")
+    @FindBy(xpath = "//*[text()='Learn more about Easy Checking Accounts']")
     public
     WebElement learnAboutEasyChecking;
     @FindBy(xpath = "//*[@id='thirdPartyLinkModal-continue']")

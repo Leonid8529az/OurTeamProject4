@@ -23,10 +23,9 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_CheckingAccount();
-        scrollToView(onlineCheckingPage.learnAboutEasyChecking);
-        waitSeconds(4);
-        onlineCheckingPage.setLearnAboutEasyChecking();
         waitSeconds(3);
+        scrollToView(onlineCheckingPage.learnAboutEasyChecking);
+        onlineCheckingPage.setLearnAboutEasyChecking();
         onlineCheckingPage.setContinueButton();
         switchToDifferentTab();
         Assert.assertEquals(bankingMadeSimpleUSBank.getTitle(),"Banking Made Simple | Easy Checking | State Farm & U.S. Bank");
@@ -101,15 +100,15 @@ public class BankingTest extends OurAPI {
 
 
         banking.setBankingHeaderInHomePage();
-        waitSeconds(2);
         banking.setBankingSubTitle_creditCards();
         scrollToView(creditCards.learnMoreAboutCashRewardVisa);
         creditCards.setLearnMoreAboutCashRewardVisa();
         continueButton.setContinueButton();
         switchToDifferentTab();
-        Assert.assertEquals(cashRewardVisa.getTitle(),"Premier Cash Rewards Visa Signature Card | Your go-to credit card | State Farm and U.S. Bank");
+        Assert.assertEquals(cashRewardVisa.getTitle(),"Credit cards | Get the credit you deserve | State Farm and U.S. Bank");
         cashRewardVisa.setApplyForCashRewardVisa();
         welcomeAllianceBank.setContinueAsGuest();
+
 
 
     }
@@ -151,6 +150,7 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_paymentSolution();
+        waitSeconds(2);
         scrollToView(businessPayment.findPaymentSolution);
         businessPayment.setFindPaymentSolution();
         welcomeAllianceBank.setContinueAsGuest();
@@ -177,6 +177,7 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_LoansAndLinesOfCredit();
+        waitSeconds(2);
         scrollToView(businessLoan.applyForEquipmentLoan);
         businessLoan.setApplyForEquipmentLoan();
         welcomeAllianceBank.setContinueAsGuest();
@@ -199,8 +200,8 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_MoneyMarket();
-        scrollToView(moneyMarketPage.applyForPlatinumBusinessPackage);
         waitSeconds(2);
+        scrollToView(moneyMarketPage.applyForPlatinumBusinessPackage);
         moneyMarketPage.setApplyForPlatinumBusinessPackage();
         welcomeAllianceBank.setContinueAsGuest();
         Assert.assertEquals(beforeStartLoan.getTitle(),"Before we start | Open a business account | U.S. Bank");
@@ -216,7 +217,7 @@ public class BankingTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void cdsSpecial(){
         Banking banking = new Banking(driver);
         CDsPage cDsPage = new CDsPage(driver);
@@ -225,9 +226,9 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_CDs();
+        waitSeconds(2);
         Assert.assertEquals(cDsPage.getTitle(),"Certificate of Deposit (CD) Accounts, Retirement CDs & Rates – State Farm®");
         scrollToView(cDsPage.learMoreAboutTradeUp);
-        waitSeconds(2);
         cDsPage.setLearMoreAboutTradeUp();
         cDsPage.setContinueButtonForCds();
 

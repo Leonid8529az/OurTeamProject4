@@ -25,9 +25,11 @@ public class InsuranceTest extends OurAPI {
         scrollToView(carInsurance.rentalInsurance);
         carInsurance.setRentalInsurance();
         carInsurance.setRentalReimbursement();
+        waitSeconds(2);
         scrollToView(carRental.carInsuranceDeductibles);
         waitSeconds(2);
         carRental.setCarInsuranceDeductibles();
+        waitSeconds(2);
 
 
 
@@ -46,9 +48,9 @@ public class InsuranceTest extends OurAPI {
         insurance.setInsuranceSubTitle_HomeAndProperty();
         Assert.assertEquals(homeAndPropertyInsurance.getTitle(),"Home and Property Insurance - State Farm®");
         scrollToView(homeAndPropertyInsurance.unlockMoreForHomeOwners);
-        waitSeconds(2);
+        waitSeconds(5);
         homeAndPropertyInsurance.setUnlockMoreForHomeOwners();
-        waitSeconds(2);
+        waitSeconds(4);
         scrollToView(homeOwner.exploreHomeOwners);
         waitSeconds(2);
         homeOwner.setExploreHomeOwners();
@@ -119,7 +121,9 @@ public class InsuranceTest extends OurAPI {
         scrollToView(wholeLifeInsurance.whatToKnow);
         waitSeconds(1);
         wholeLifeInsurance.setLifeInsuranceResources();
+        waitSeconds(3);
         scrollToView(lifeInsuranceBasic.getStartedForLifeInsurance);
+        waitSeconds(3);
         lifeInsuranceBasic.setGetStartedForLifeInsurance();
         inforForLifeInsurance.setFirstNameForLifeInsurance("john");
         inforForLifeInsurance.setGenderForLifeInsurance("Male");
@@ -143,9 +147,9 @@ public class InsuranceTest extends OurAPI {
         insurance.setInsuranceHeaderInHomePage();
         insurance.setInsuranceSubTitle_WorkersCompensation();
         scrollToView(workersCompensation.learnRisks);
-        waitSeconds(2);
+        waitSeconds(6);
         workersCompensation.setLearnRisks();
-        waitSeconds(2);
+        waitSeconds(6);
         scrollToView(lossControl.otherAvailableResource);
         Assert.assertEquals(lossControl.getTitle(),"Loss Control and Prevention - State Farm®");
         lossControl.setAggressiveDriving();
@@ -164,6 +168,7 @@ public class InsuranceTest extends OurAPI {
         insurance.setInsuranceHeaderInHomePage();
         insurance.setInsuranceSubTitle_BusinessLiability();
         Assert.assertEquals(businessLiability.getTitle(),"Business Professional Liability Insurance - State Farm®");
+        waitSeconds(2);
         scrollToView(businessLiability.floodInsurance);
         waitSeconds(1);
         businessLiability.setFloodInsurance();
@@ -210,9 +215,9 @@ public class InsuranceTest extends OurAPI {
         lifeQuote.setDateOfBirthForLifeQuote("12-11-1980");
         lifeQuote.setContinueForBirthDayLifeQuote();
         lifeQuote.setGenderForTermLife();
-        waitSeconds(1);
+        waitSeconds(2);
         lifeQuote.setTobaccoForTermLife();
-        waitSeconds(1);
+        waitSeconds(3);
         lifeQuote.setMonthForLstTobacco("April");
         lifeQuote.setLastYearForTobacco("2021");
         lifeQuote.setContinueForTobacco();
@@ -220,7 +225,9 @@ public class InsuranceTest extends OurAPI {
         lifeQuote.setHeightInches("10");
         lifeQuote.setContinueForHeight();
         lifeQuote.setWeight("180");
+        waitSeconds(2);
         lifeQuote.setContinueForWeight();
+        waitSeconds(3);
         lifeQuote.setHealthCondition();
         lifeQuote.setCoverageNeeded("$500,000");
         lifeQuote.setTermLength("10 years");
