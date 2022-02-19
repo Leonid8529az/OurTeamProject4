@@ -12,13 +12,17 @@ public class ProfileSecurity extends OurAPI {
     String email = "testFaceBookEmail111@gmail.com";
     String password = "12345abc!";
     String newPass = "12345abcd@";
-    WebElementsLibrary webElementsLibrary;
+    SettingsSecurityPage settingsSecurityPage;
+    LoginPage loginPage;
+    SettingsGeneralPage settingsGeneralPage;
     @BeforeMethod
     public void librarySetUp() {
-        webElementsLibrary = PageFactory.initElements(driver,WebElementsLibrary.class);
-        webElementsLibrary.emailFeed(email);
-        webElementsLibrary.passwordFeed(password);
-        webElementsLibrary.clickOnLogIn();
+        settingsSecurityPage = PageFactory.initElements(driver,SettingsSecurityPage.class);
+        loginPage = PageFactory.initElements(driver,LoginPage.class);
+        settingsGeneralPage = PageFactory.initElements(driver,SettingsGeneralPage.class);
+        loginPage.emailFeed(email);
+        loginPage.passwordFeed(password);
+        loginPage.clickOnLogIn();
     }
     @AfterMethod
     public void libraryDelete() {
@@ -27,80 +31,80 @@ public class ProfileSecurity extends OurAPI {
 
     @Test
     public void FBTest_008() {
-        webElementsLibrary.clickOnDropDownButtinByProfile();
-        webElementsLibrary.settingsAndPrivacy_FBTesting_008();
-        webElementsLibrary.settings_FBTesting_008();
-        webElementsLibrary.securityAndLogin_FBTesting_008();
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        settingsSecurityPage.securityAndLogin();
         waitSeconds(2);
-        switchToIFrame(webElementsLibrary.iFrame);
-        Assert.assertEquals(webElementsLibrary.getTextSecurityAndLogin_FBTesting_008(),"Security and Login");
-        webElementsLibrary.passwordEditButton_FBTesting_008();
-        Assert.assertEquals(webElementsLibrary.getTextOldPassword_FBTesting_008(),"Current");
-        webElementsLibrary.oldPassword_FBTesting_08(password);
-        Assert.assertEquals(webElementsLibrary.getTextNewPassword_FBTesting_008(),"New");
-        webElementsLibrary.newPassword_FBTesting_08(newPass);
-        Assert.assertEquals(webElementsLibrary.getTextConfirmPassword_FBTesting_008(),"Re-type new");
-        webElementsLibrary.confirmPassword_FBTesting_008(newPass);
-        webElementsLibrary.saveChanges_FBTesting_008();
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(settingsSecurityPage.getTextSecurityAndLogin(),"Security and Login");
+        settingsSecurityPage.passwordEditButton();
+        Assert.assertEquals(settingsSecurityPage.getTextOldPassword(),"Current");
+        settingsSecurityPage.oldPassword(password);
+        Assert.assertEquals(settingsSecurityPage.getTextNewPassword(),"New");
+        settingsSecurityPage.newPassword(newPass);
+        Assert.assertEquals(settingsSecurityPage.getTextConfirmPassword(),"Re-type new");
+        settingsSecurityPage.confirmPassword(newPass);
+        settingsSecurityPage.saveChanges();
         waitSeconds(2);
-        Assert.assertEquals(webElementsLibrary.passwordChanged_FBTesting_008(),"Password changed");
-        webElementsLibrary.stayLoggedIn_FBTesting_008();
-        webElementsLibrary.continueChangePass_FBTesting_008();
+        Assert.assertEquals(settingsSecurityPage.passwordChanged(),"Password changed");
+        settingsSecurityPage.stayLoggedIn();
+        settingsSecurityPage.continueChangePass();
         waitSeconds(2);
         // return to original pass
-        webElementsLibrary.passwordEditButton_FBTesting_008();
-        Assert.assertEquals(webElementsLibrary.getTextOldPassword_FBTesting_008(),"Current");
-        webElementsLibrary.oldPassword_FBTesting_08(newPass);
-        Assert.assertEquals(webElementsLibrary.getTextNewPassword_FBTesting_008(),"New");
-        webElementsLibrary.newPassword_FBTesting_08(password);
-        Assert.assertEquals(webElementsLibrary.getTextConfirmPassword_FBTesting_008(),"Re-type new");
-        webElementsLibrary.confirmPassword_FBTesting_008(password);
-        webElementsLibrary.saveChanges_FBTesting_008();
+        settingsSecurityPage.passwordEditButton();
+        Assert.assertEquals(settingsSecurityPage.getTextOldPassword(),"Current");
+        settingsSecurityPage.oldPassword(newPass);
+        Assert.assertEquals(settingsSecurityPage.getTextNewPassword(),"New");
+        settingsSecurityPage.newPassword(password);
+        Assert.assertEquals(settingsSecurityPage.getTextConfirmPassword(),"Re-type new");
+        settingsSecurityPage.confirmPassword(password);
+        settingsSecurityPage.saveChanges();
         waitSeconds(2);
-        Assert.assertEquals(webElementsLibrary.passwordChanged_FBTesting_008(),"Password changed");
-        webElementsLibrary.stayLoggedIn_FBTesting_008();
-        webElementsLibrary.continueChangePass_FBTesting_008();
+        Assert.assertEquals(settingsSecurityPage.passwordChanged(),"Password changed");
+        settingsSecurityPage.stayLoggedIn();
+        settingsSecurityPage.continueChangePass();
 
     }
     @Test
     public void FBTesting_009() {
         String weakPass = "88888888";
-        webElementsLibrary.clickOnDropDownButtinByProfile();
-        webElementsLibrary.settingsAndPrivacy_FBTesting_008();
-        webElementsLibrary.settings_FBTesting_008();
-        webElementsLibrary.securityAndLogin_FBTesting_008();
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        settingsSecurityPage.securityAndLogin();
         waitSeconds(2);
-        switchToIFrame(webElementsLibrary.iFrame);
-        webElementsLibrary.passwordEditButton_FBTesting_008();
-        Assert.assertEquals(webElementsLibrary.getTextOldPassword_FBTesting_008(),"Current");
-        webElementsLibrary.oldPassword_FBTesting_08(password);
-        Assert.assertEquals(webElementsLibrary.getTextNewPassword_FBTesting_008(),"New");
-        webElementsLibrary.newPassword_FBTesting_08(weakPass);
-        Assert.assertEquals(webElementsLibrary.getTextConfirmPassword_FBTesting_008(),"Re-type new");
-        webElementsLibrary.confirmPassword_FBTesting_008(weakPass);
-        webElementsLibrary.saveChanges_FBTesting_008();
+        switchToIFrame(settingsGeneralPage.iFrame);
+        settingsSecurityPage.passwordEditButton();
+        Assert.assertEquals(settingsSecurityPage.getTextOldPassword(),"Current");
+        settingsSecurityPage.oldPassword(password);
+        Assert.assertEquals(settingsSecurityPage.getTextNewPassword(),"New");
+        settingsSecurityPage.newPassword(weakPass);
+        Assert.assertEquals(settingsSecurityPage.getTextConfirmPassword(),"Re-type new");
+        settingsSecurityPage.confirmPassword(weakPass);
+        settingsSecurityPage.saveChanges();
         waitSeconds(2);
-        Assert.assertEquals(webElementsLibrary.iconTextPass_FBTesting_009(),"Please choose a more secure password.");
+        Assert.assertEquals(settingsSecurityPage.iconTextPass(),"Please choose a more secure password.");
 
     }
     @Test
     public void FBTesting_010() {
-        webElementsLibrary.clickOnDropDownButtinByProfile();
-        webElementsLibrary.settingsAndPrivacy_FBTesting_008();
-        webElementsLibrary.settings_FBTesting_008();
-        webElementsLibrary.securityAndLogin_FBTesting_008();
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        settingsSecurityPage.securityAndLogin();
         waitSeconds(2);
-        switchToIFrame(webElementsLibrary.iFrame);
-        webElementsLibrary.passwordEditButton_FBTesting_008();
-        Assert.assertEquals(webElementsLibrary.getTextOldPassword_FBTesting_008(),"Current");
-        webElementsLibrary.oldPassword_FBTesting_08(password);
-        Assert.assertEquals(webElementsLibrary.getTextNewPassword_FBTesting_008(),"New");
-        webElementsLibrary.newPassword_FBTesting_08(password);
-        Assert.assertEquals(webElementsLibrary.getTextConfirmPassword_FBTesting_008(),"Re-type new");
-        webElementsLibrary.confirmPassword_FBTesting_008(password);
-        webElementsLibrary.saveChanges_FBTesting_008();
+        switchToIFrame(settingsGeneralPage.iFrame);
+        settingsSecurityPage.passwordEditButton();
+        Assert.assertEquals(settingsSecurityPage.getTextOldPassword(),"Current");
+        settingsSecurityPage.oldPassword(password);
+        Assert.assertEquals(settingsSecurityPage.getTextNewPassword(),"New");
+        settingsSecurityPage.newPassword(password);
+        Assert.assertEquals(settingsSecurityPage.getTextConfirmPassword(),"Re-type new");
+        settingsSecurityPage.confirmPassword(password);
+        settingsSecurityPage.saveChanges();
         waitSeconds(2);
-        Assert.assertEquals(webElementsLibrary.iconTextPass_FBTesting_009(),"Password must differ from old password.");
+        Assert.assertEquals(settingsSecurityPage.iconTextPass(),"Password must differ from old password.");
     }
 
 }
