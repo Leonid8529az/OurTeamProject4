@@ -121,7 +121,9 @@ public class InsuranceTest extends OurAPI {
         scrollToView(wholeLifeInsurance.whatToKnow);
         waitSeconds(1);
         wholeLifeInsurance.setLifeInsuranceResources();
+        waitSeconds(3);
         scrollToView(lifeInsuranceBasic.getStartedForLifeInsurance);
+        waitSeconds(3);
         lifeInsuranceBasic.setGetStartedForLifeInsurance();
         inforForLifeInsurance.setFirstNameForLifeInsurance("john");
         inforForLifeInsurance.setGenderForLifeInsurance("Male");
