@@ -12,11 +12,14 @@ public class AgentNearBy extends OurAPI {
         PageFactory.initElements(driver,this);
     }
 
+    @FindBy(xpath = "//*[@id=\"locationText\"]")
+    WebElement zipcodeToFindAgent;
 
     @FindBy(xpath = "//*[text()='Agent Website'and@title='Sammy Martinez']")
     public
     WebElement sammyMartinezWebsite;
     @FindBy(xpath = "//*[text()='Get Directions'and@title='Sammy Martinez']")
+    public
     WebElement sammyMartinezDirection;
     @FindBy(xpath = "//*[text()='Email Agent'and@title='Sammy Martinez']")
     public
@@ -38,5 +41,6 @@ public class AgentNearBy extends OurAPI {
     public void setEmailFieldToEmailAgent(String email){enterText(emailFieldToEmailAgent,email);}
     public void setTextToEmail(String text){enterText(textToEmail,text);}
     public void setSendEmailToAgent(){click(sendEmailToAgent);}
+    public void setZipcodeToFindAgent(String zipcode){enterText(zipcodeToFindAgent,zipcode);}
 
 }

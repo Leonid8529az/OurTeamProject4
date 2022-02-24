@@ -12,8 +12,14 @@
 
     <test name = "State Farm Automation">
         <classes>
-            <class name = "Team4Pro.BankingTest"></class>
-            <class name = "Team4Pro.InsuranceTest"></class>
+<!--            <class name = "Team4Pro.InvestmentTest"></class>-->
+<!--            <class name = "Team4Pro.QuoteTest"></class>-->
+<!--            <class name = "Team4Pro.PayBillTest"></class>-->
+<!--            <class name = "Team4Pro.ClaimsTest"></class>-->
+<!--            <class name = "Team4Pro.ClaimHelpTest"></class>-->
+            <class name = "Team4Pro.TrackClaimsTest"></class>
+<!--            <class name = "Team4Pro.InsuranceTest"></class>-->
+<!--            <class name = "Team4Pro.BankingTest"></class>-->
         </classes>
     </test>
 
