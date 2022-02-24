@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class InsuranceTest extends OurAPI {
 
 
-//    @Test
+    @Test
     public void carInsurance(){
         Insurance insurance = new Insurance(driver);
         CarInsurance carInsurance = new CarInsurance(driver);
@@ -37,7 +37,7 @@ public class InsuranceTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void homeAndProperty(){
         Insurance insurance = new Insurance(driver);
         HomeAndPropertyInsurance homeAndPropertyInsurance = new HomeAndPropertyInsurance(driver);
@@ -70,7 +70,7 @@ public class InsuranceTest extends OurAPI {
     }
 
 
-//    @Test
+    @Test
     public void condoQuote(){
         Insurance insurance = new Insurance(driver);
         CandoInsurance candoInsurance = new CandoInsurance(driver);
@@ -96,7 +96,7 @@ public class InsuranceTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void medicareSupplement(){
 
         Insurance insurance = new Insurance(driver);
@@ -113,7 +113,7 @@ public class InsuranceTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void wholeLifeInsurance(){
         Insurance insurance = new Insurance(driver);
         WholeLifeInsurance wholeLifeInsurance = new WholeLifeInsurance(driver);
@@ -133,7 +133,8 @@ public class InsuranceTest extends OurAPI {
         scrollToView(lifeInsuranceBasic.getStartedForLifeInsurance);
         waitSeconds(3);
         lifeInsuranceBasic.setGetStartedForLifeInsurance();
-        Assert.assertEquals(inforForLifeInsurance.getTitle(),"Personal Information - Profile - MyBlocks by Envestnet MoneyGuide");
+        Assert.assertEquals(inforForLifeInsurance.getTitle(),"Blocks by Envestnet - MoneyGuide");
+        waitSeconds(2);
         inforForLifeInsurance.setFirstNameForLifeInsurance("john");
         inforForLifeInsurance.setGenderForLifeInsurance("Male");
         inforForLifeInsurance.setDateOfBirthForLifeInsurance("12/1983");
@@ -147,7 +148,7 @@ public class InsuranceTest extends OurAPI {
     }
 
 
-//    @Test
+    @Test
     public void workerCompensation(){
         Insurance insurance = new Insurance(driver);
         WorkersCompensation workersCompensation = new WorkersCompensation(driver);
@@ -169,7 +170,7 @@ public class InsuranceTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void businessLiability(){
         Insurance insurance = new Insurance(driver);
         BusinessLiability businessLiability = new BusinessLiability(driver);
@@ -192,7 +193,7 @@ public class InsuranceTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void roadSide(){
         Insurance insurance = new Insurance(driver);
         GetRoadSideAssistance getRoadSideAssistance = new GetRoadSideAssistance(driver);
@@ -213,7 +214,7 @@ public class InsuranceTest extends OurAPI {
     }
 
 
-//    @Test
+    @Test
     public void termLife(){
         Insurance insurance = new Insurance(driver);
         TermLifeInsurance termLifeInsurance = new TermLifeInsurance(driver);

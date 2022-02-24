@@ -194,7 +194,8 @@ public class BankingTest extends OurAPI {
         businessLoan.setApplyForEquipmentLoan();
         Assert.assertEquals(businessLoan.getTitle(),"Welcome!");
         welcomeAllianceBank.setContinueAsGuest();
-        Assert.assertEquals(welcomeAllianceBank.getTitle(),"U.S. Bank Business Lending");
+        Assert.assertEquals(welcomeAllianceBank.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
+        waitSeconds(2);
         beforeStartLoan.setGetStartedForLoan();
         Assert.assertEquals(beforeStartLoan.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
 

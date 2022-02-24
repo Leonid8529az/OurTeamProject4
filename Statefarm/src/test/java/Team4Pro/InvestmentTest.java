@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class InvestmentTest extends OurAPI {
 
 
-//    @Test
+    @Test
     public void retirementPlan(){
 
         Investment investment = new Investment(driver);
@@ -27,7 +27,7 @@ public class InvestmentTest extends OurAPI {
         Assert.assertEquals(retirementPlan.getTitle(),"Prepare for Retirement - State Farm®");
         scrollToView(prepareForRetirement.calculateMyRetirement);
         prepareForRetirement.setCalculateMyRetirement();
-        Assert.assertEquals(prepareForRetirement.getTitle(),"Blocks by Envestnet - MoneyGuide");
+        Assert.assertEquals(prepareForRetirement.getTitle(),"Personal Information - Profile - MyBlocks by Envestnet MoneyGuide");
         personalInfo.setFirstNameForRetirement("john");
         personalInfo.setGenderForRetirement("Male");
         personalInfo.setDateOfBirthForRetirement("12/1980");
@@ -39,7 +39,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void rothIRATest(){
         Investment investment = new Investment(driver);
         RothIRA rothIRA = new RothIRA(driver);
@@ -63,7 +63,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void businessRetirementTest(){
         Investment investment = new Investment(driver);
         SmallBusinessRetirement smallBusinessRetirement = new SmallBusinessRetirement(driver);
@@ -86,7 +86,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void selectingFundTest(){
         Investment investment = new Investment(driver);
         EstimateYourInvestment estimateYourInvestment = new EstimateYourInvestment(driver);
@@ -113,7 +113,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void blackRockTest(){
         Investment investment = new Investment(driver);
         AmericanFunds americanFunds = new AmericanFunds(driver);
@@ -127,7 +127,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void savingPlanTest(){
         Investment investment = new Investment(driver);
         SavingPlan savingPlan = new SavingPlan(driver);
@@ -149,7 +149,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void jointAccountTest(){
         Investment investment = new Investment(driver);
         JointTenancy jointTenancy = new JointTenancy(driver);
@@ -165,7 +165,7 @@ public class InvestmentTest extends OurAPI {
         jointTenancy.setMutualFunds();
         scrollToView(mutualFunds.troubleLogging);
         mutualFunds.setTroubleLogging();
-        Assert.assertEquals(forgotUserName.getTitle(),"Forgot");
+        Assert.assertEquals(forgotUserName.getTitle(),"Forgot UserId / Password");
         forgotUserName.setPhoneNumberToFindAccount("6463521652");
         waitSeconds(4);
         forgotUserName.setDateOfBirthToFindAccount("12-11-1980");
@@ -179,7 +179,7 @@ public class InvestmentTest extends OurAPI {
 
 
     }
-//    @Test
+    @Test
     public void federalTaxTest(){
         Investment investment = new Investment(driver);
         FederalEstate federalEstate = new FederalEstate(driver);
@@ -196,7 +196,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void changeAnnuitiesTest(){
         Investment investment = new Investment(driver);
         NeedToMakeChange needToMakeChange = new NeedToMakeChange(driver);
@@ -214,7 +214,7 @@ public class InvestmentTest extends OurAPI {
 
     }
 
-//    @Test
+    @Test
     public void savingForCollegeTest(){
         Investment investment = new Investment(driver);
         SavingPlan savingPlan = new SavingPlan(driver);

@@ -65,6 +65,7 @@ public class ClaimsTest extends OurAPI {
         fileAClaim.setStartClaimForHome();
         loggingPage.setTroubleLogging();
         Assert.assertEquals(loggingPage.getTitle(),"Forgot UserId / Password");
+        waitSeconds(2);
         forgotUserName.setPhoneNumberToFindAccount("6461521723");
         forgotUserName.setDateOfBirthToFindAccount("12-10-1982");
         forgotUserName.setEmailToFindAccount("john@gmail.com");

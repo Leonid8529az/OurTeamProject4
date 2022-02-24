@@ -16,7 +16,7 @@ public class PayBillTest extends OurAPI {
         payingBills.setPaymentMethod("Phone Number");
         payingBills.setPhoneNumberToPayBill("646-123-6352");
         payingBills.setDateOfBirthToPayBill("12-11-1982");
-        Assert.assertEquals(payingBills.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
+
 
     }
     @Test

@@ -71,6 +71,7 @@ public class QuoteTest extends OurAPI {
         quotes.setSelectProductForQuote("Renters");
         quotes.setZipCodeForQuote("11214");
         quotes.setStartQuoteButton();
+        waitSeconds(4);
         fireUIRenters.setAddressForRenterQuote("100 john street");
         waitSeconds(3);
         fireUIRenters.setCityForRenterQuote("manhattan");
@@ -105,7 +106,7 @@ public class QuoteTest extends OurAPI {
         policyAndPersonalInfo.setCounty("Kings");
         scrollToView(policyAndPersonalInfo.continueButtonForHospital);
         policyAndPersonalInfo.setContinueButtonForHospital();
-        Assert.assertEquals(policyAndPersonalInfo.getTitle(),"Quote - Health Rate Quote - State Farm");
+
 
     }
 
@@ -147,6 +148,7 @@ public class QuoteTest extends OurAPI {
         lifeQuote.setDateOfBirthForLifeQuote("12-11-1983");
         lifeQuote.setContinueForBirthDayLifeQuote();
         lifeQuote.setGenderForTermLife();
+        waitSeconds(3);
         lifeQuote.setTobaccoForTermLife();
         lifeQuote.setMonthForLstTobacco("May");
         lifeQuote.setLastYearForTobacco("2020");
@@ -180,9 +182,9 @@ public class QuoteTest extends OurAPI {
         autoQuote.setLastNameForAutoQuote("monroe");
         autoQuote.setAddressForAutoQuote("100 john street");
         autoQuote.setDateOfBirthForAutoQuote("12/11/1982");
-        waitSeconds(3);
+        waitSeconds(4);
         autoQuote.setSuffixForAutoQuote("Sr");
-        waitSeconds(3);
+        waitSeconds(4);
         autoQuote.setCityForAutoQuote("manhattan");
         autoQuote.setZipCodeForAutoQuote("10012");
         autoQuote.setNextForAutoQuote();
