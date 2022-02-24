@@ -23,6 +23,7 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_CheckingAccount();
+        Assert.assertEquals(onlineCheckingPage.getTitle(),"Open an Online Checking Account that Fits Your Needs");
         waitSeconds(3);
         scrollToView(onlineCheckingPage.learnAboutEasyChecking);
         onlineCheckingPage.setLearnAboutEasyChecking();
@@ -30,8 +31,10 @@ public class BankingTest extends OurAPI {
         switchToDifferentTab();
         Assert.assertEquals(bankingMadeSimpleUSBank.getTitle(),"Banking Made Simple | Easy Checking | State Farm & U.S. Bank");
         bankingMadeSimpleUSBank.setApplyNowForBasicChecking();
+        Assert.assertEquals(welcomeAllianceBank.getTitle(),"Welcome!");
         waitSeconds(2);
         welcomeAllianceBank.setContinueAsGuest();
+        Assert.assertEquals(onlineCheckingWithUSBank.getTitle(),"Open a checking account | State Farm & U.S. Bank");
         waitSeconds(3);
         onlineCheckingWithUSBank.setFirstNameField("john");
         onlineCheckingWithUSBank.setLastNameField("preu");
@@ -63,10 +66,10 @@ public class BankingTest extends OurAPI {
         Assert.assertEquals(typesOfSavings.getTitle(),"Types of Savings Accounts - State Farm®");
         typesOfSavings.setContinueButton();
         switchToDifferentTab();
-//        waitSeconds(2);
-//        compareSavingAccounts.setSelectFromStandardSaving("Standard Savings");
+        Assert.assertEquals(compareSavingAccounts.getTitle(),"Compare savings accounts | Save with confidence | State Farm & U.S. Bank");
         waitSeconds(2);
         compareSavingAccounts.setApplyNowForSaving();
+        Assert.assertEquals(typesOfSavings.getTitle(),"Welcome!");
 
 
     }
@@ -81,11 +84,13 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubtitle_homeLoan();
+        Assert.assertEquals(loanHome.getTitle(),"Welcome to a simple and seamless home loan experience");
         scrollToView(loanHome.zipCodeForHomeLoan);
         loanHome.setZipCodeForHomeLoan("11214");
         scrollToView(agentNearBy.sammyMartinezWebsite);
         Assert.assertEquals(agentNearBy.getTitle(),"Find State Farm® Agents Near You - State Farm®");
         agentNearBy.setGetSammyMartinezEmail();
+
 
 
     }
@@ -101,6 +106,7 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_creditCards();
+        Assert.assertEquals(creditCards.getTitle(),"Visa Credit Cards from U.S. Bank® – State Farm®");
         scrollToView(creditCards.learnMoreAboutCashRewardVisa);
         creditCards.setLearnMoreAboutCashRewardVisa();
         continueButton.setContinueButton();
@@ -108,6 +114,7 @@ public class BankingTest extends OurAPI {
         Assert.assertEquals(cashRewardVisa.getTitle(),"Credit cards | Get the credit you deserve | State Farm and U.S. Bank");
         cashRewardVisa.setApplyForCashRewardVisa();
         welcomeAllianceBank.setContinueAsGuest();
+        Assert.assertEquals(welcomeAllianceBank.getTitle(),"U.S. Bank Credit Cards");
 
 
 
@@ -128,12 +135,14 @@ public class BankingTest extends OurAPI {
         waitSeconds(2);
         scrollToView(cDsPage.learnMoreBoutRetirementCDS);
         cDsPage.setLearnMoreBoutRetirementCDS();
+        Assert.assertEquals(cDsPage.getTitle(),"Certificate of Deposit (CD) Accounts, Retirement CDs & Rates – State Farm®");
         waitSeconds(2);
         cDsPage.setContinueButtonForCds();
         switchToDifferentTab();
         Assert.assertEquals(maximizeSavingsRetirement.getTitle(),"Maximize Your Savings | Retirement CD | State Farm & U.S. Bank");
         maximizeSavingsRetirement.setStartSavingWithCDS();
         welcomeAllianceBank.setContinueAsGuest();
+
 
     }
 
@@ -153,7 +162,9 @@ public class BankingTest extends OurAPI {
         waitSeconds(2);
         scrollToView(businessPayment.findPaymentSolution);
         businessPayment.setFindPaymentSolution();
+        Assert.assertEquals(businessPayment.getTitle(),"Welcome!");
         welcomeAllianceBank.setContinueAsGuest();
+        Assert.assertEquals(welcomeAllianceBank.getTitle(),"talech POS");
         scrollToView(talechPods.overThePhone);
         waitSeconds(2);
         talechPods.setOverThePhone();
@@ -162,6 +173,7 @@ public class BankingTest extends OurAPI {
         scrollToView(talechAccount.continueForTalechAccount);
         waitSeconds(2);
         talechAccount.setContinueForTalechAccount();
+        Assert.assertEquals(talechAccount.getTitle(),"Mobile | Open a Talech account | Talech");
 
 
     }
@@ -180,7 +192,10 @@ public class BankingTest extends OurAPI {
         waitSeconds(2);
         scrollToView(businessLoan.applyForEquipmentLoan);
         businessLoan.setApplyForEquipmentLoan();
+        Assert.assertEquals(businessLoan.getTitle(),"Welcome!");
         welcomeAllianceBank.setContinueAsGuest();
+        Assert.assertEquals(welcomeAllianceBank.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
+        waitSeconds(2);
         beforeStartLoan.setGetStartedForLoan();
         Assert.assertEquals(beforeStartLoan.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
 
@@ -203,6 +218,7 @@ public class BankingTest extends OurAPI {
         waitSeconds(2);
         scrollToView(moneyMarketPage.applyForPlatinumBusinessPackage);
         moneyMarketPage.setApplyForPlatinumBusinessPackage();
+        Assert.assertEquals(welcomeAllianceBank.getTitle(),"Welcome!");
         welcomeAllianceBank.setContinueAsGuest();
         Assert.assertEquals(beforeStartLoan.getTitle(),"Before we start | Open a business account | U.S. Bank");
         waitSeconds(2);
@@ -213,6 +229,7 @@ public class BankingTest extends OurAPI {
         businessAccount.setEmailForBusinessAccount("john-preu@gmail.com");
         businessAccount.setAltEmailForBusinessAccount("josh123@gmail.com");
         scrollToView(businessAccount.saveAndContinueForBusinessAccount);
+        Assert.assertEquals(businessAccount.getTitle(),"Open a business account | U.S. Bank");
         businessAccount.setSaveAndContinueForBusinessAccount();
 
     }
@@ -232,6 +249,7 @@ public class BankingTest extends OurAPI {
         cDsPage.setLearMoreAboutTradeUp();
         cDsPage.setContinueButtonForCds();
 
+
     }
 
     @Test
@@ -242,7 +260,9 @@ public class BankingTest extends OurAPI {
 
 
         banking.setBankingHeaderInHomePage();
+        Assert.assertEquals(banking.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         banking.setBankingSubtitle_homeLoan();
+        Assert.assertEquals(loanHome.getTitle(),"Welcome to a simple and seamless home loan experience");
         scrollToView(loanHome.zipCodeForHomeLoan);
         loanHome.setZipCodeForHomeLoan("11214");
         scrollToView(agentNearBy.sammyMartinezWebsite);

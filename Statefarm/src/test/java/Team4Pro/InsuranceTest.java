@@ -20,6 +20,7 @@ public class InsuranceTest extends OurAPI {
 
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_CarInsurance();
         Assert.assertEquals(carInsurance.getTitle(),"Free Car Insurance Quote - Save on Auto Insurance - State Farm®");
         scrollToView(carInsurance.rentalInsurance);
@@ -29,7 +30,8 @@ public class InsuranceTest extends OurAPI {
         scrollToView(carRental.carInsuranceDeductibles);
         waitSeconds(2);
         carRental.setCarInsuranceDeductibles();
-        waitSeconds(2);
+        Assert.assertEquals(carRental.getTitle(),"Car Insurance Deductibles: Choosing Well - State Farm®");
+
 
 
 
@@ -54,13 +56,14 @@ public class InsuranceTest extends OurAPI {
         scrollToView(homeOwner.exploreHomeOwners);
         waitSeconds(2);
         homeOwner.setExploreHomeOwners();
+        Assert.assertEquals(homeOwner.getTitle(),"Homeowners Insurance Discounts - State Farm®");
         waitSeconds(2);
         scrollToView(homeOwnerDiscount.seeRoofingDiscount);
         waitSeconds(2);
         homeOwnerDiscount.setSeeRoofingDiscount();
+        Assert.assertEquals(homeOwnerDiscount.getTitle(),"Roofing Materials Home Insurance Discounts - State Farm®");
         waitSeconds(2);
         scrollToView(roofingMaterial.informationForRoofing);
-//        waitSeconds(2);
         roofingMaterial.setInformationForRoofing();
         Assert.assertEquals(roofingMaterial.getTitle(),"Roofing Materials Home Insurance Discounts - State Farm®");
 
@@ -68,13 +71,14 @@ public class InsuranceTest extends OurAPI {
 
 
     @Test
-    public void candoQuote(){
+    public void condoQuote(){
         Insurance insurance = new Insurance(driver);
         CandoInsurance candoInsurance = new CandoInsurance(driver);
         WelcomeToCandoQuote welcomeToCandoQuote = new WelcomeToCandoQuote(driver);
 
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_Condominium();
         candoInsurance.setZipCodeForCando("11214");
         candoInsurance.setStarQuoteForCando();
@@ -100,8 +104,10 @@ public class InsuranceTest extends OurAPI {
 
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_MedicareSupplement();
         medicareSupplement.setSelectStateForMedicare("NY");
+        Assert.assertEquals(medicareSupplement.getTitle(),"Medicare Supplement Insurance - State Farm®");
         waitSeconds(2);
 
 
@@ -116,15 +122,19 @@ public class InsuranceTest extends OurAPI {
 
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_WholeLife();
         waitSeconds(2);
         scrollToView(wholeLifeInsurance.whatToKnow);
         waitSeconds(1);
+        Assert.assertEquals(wholeLifeInsurance.getTitle(),"Whole Life Insurance – Get A Quote - State Farm®");
         wholeLifeInsurance.setLifeInsuranceResources();
         waitSeconds(3);
         scrollToView(lifeInsuranceBasic.getStartedForLifeInsurance);
         waitSeconds(3);
         lifeInsuranceBasic.setGetStartedForLifeInsurance();
+        Assert.assertEquals(inforForLifeInsurance.getTitle(),"Blocks by Envestnet - MoneyGuide");
+        waitSeconds(2);
         inforForLifeInsurance.setFirstNameForLifeInsurance("john");
         inforForLifeInsurance.setGenderForLifeInsurance("Male");
         inforForLifeInsurance.setDateOfBirthForLifeInsurance("12/1983");
@@ -145,9 +155,11 @@ public class InsuranceTest extends OurAPI {
         LossControl lossControl = new LossControl(driver);
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_WorkersCompensation();
         scrollToView(workersCompensation.learnRisks);
         waitSeconds(6);
+        Assert.assertEquals(insurance.getTitle(),"Workers’ Compensation Insurance - State Farm®");
         workersCompensation.setLearnRisks();
         waitSeconds(6);
         scrollToView(lossControl.otherAvailableResource);
@@ -166,14 +178,17 @@ public class InsuranceTest extends OurAPI {
         WinterWeather winterWeather = new WinterWeather(driver);
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_BusinessLiability();
         Assert.assertEquals(businessLiability.getTitle(),"Business Professional Liability Insurance - State Farm®");
         waitSeconds(2);
         scrollToView(businessLiability.floodInsurance);
         waitSeconds(1);
         businessLiability.setFloodInsurance();
+        Assert.assertEquals(businessLiability.getTitle(),"Flood Insurance - State Farm®");
         scrollToView(floodInsurance.iceDams);
         floodInsurance.setIceDams();
+        Assert.assertEquals(floodInsurance.getTitle(),"Winter Water Damage from Ice Dams & More - State Farm®");
 
 
     }
@@ -186,6 +201,7 @@ public class InsuranceTest extends OurAPI {
 
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_RoadAssistance();
         getRoadSideAssistance.setGetAssistance();
         Assert.assertEquals(emergencyService.getTitle(),"Emergency Roadside Service");
@@ -206,6 +222,7 @@ public class InsuranceTest extends OurAPI {
 
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_TermLife();
         scrollToView(termLifeInsurance.selectStateForTermLife);
         termLifeInsurance.setSelectStateForTermLife("NY");
@@ -232,6 +249,7 @@ public class InsuranceTest extends OurAPI {
         lifeQuote.setCoverageNeeded("$500,000");
         lifeQuote.setTermLength("10 years");
         lifeQuote.setContinueForCoverage();
+        Assert.assertEquals(lifeQuote.getTitle(),"Life Quote - State Farm");
 
 
     }
@@ -244,10 +262,12 @@ public class InsuranceTest extends OurAPI {
         AgentNearBy agentNearBy = new AgentNearBy(driver);
 
         insurance.setInsuranceHeaderInHomePage();
+        Assert.assertEquals(insurance.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         insurance.setInsuranceSubTitle_ManufacturedHome();
         manufacturedHome.setZipCodeForManufacturedHome("11214");
         scrollToView(agentNearBy.getSammyMartinezEmail);
         agentNearBy.setGetSammyMartinezEmail();
+        Assert.assertEquals(agentNearBy.getTitle(),"Find State Farm® Agents Near You - State Farm®");
         switchToDifferentWindow();
         agentNearBy.setNameFieldToEmailAgent("john");
         agentNearBy.setEmailFieldToEmailAgent("john-preu@gmail.com");
