@@ -64,6 +64,7 @@ public class ClaimsTest extends OurAPI {
         Assert.assertEquals(fileAClaim.getTitle(),"File A Claim - State Farm®");
         fileAClaim.setStartClaimForHome();
         loggingPage.setTroubleLogging();
+        waitSeconds(2);
         Assert.assertEquals(loggingPage.getTitle(),"Forgot UserId / Password");
         waitSeconds(2);
         forgotUserName.setPhoneNumberToFindAccount("6461521723");

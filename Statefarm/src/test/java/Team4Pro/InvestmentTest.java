@@ -27,7 +27,9 @@ public class InvestmentTest extends OurAPI {
         Assert.assertEquals(retirementPlan.getTitle(),"Prepare for Retirement - State Farm®");
         scrollToView(prepareForRetirement.calculateMyRetirement);
         prepareForRetirement.setCalculateMyRetirement();
+        waitSeconds(2);
         Assert.assertEquals(prepareForRetirement.getTitle(),"Personal Information - Profile - MyBlocks by Envestnet MoneyGuide");
+        waitSeconds(2);
         personalInfo.setFirstNameForRetirement("john");
         personalInfo.setGenderForRetirement("Male");
         personalInfo.setDateOfBirthForRetirement("12/1980");
@@ -165,7 +167,9 @@ public class InvestmentTest extends OurAPI {
         jointTenancy.setMutualFunds();
         scrollToView(mutualFunds.troubleLogging);
         mutualFunds.setTroubleLogging();
+        waitSeconds(2);
         Assert.assertEquals(forgotUserName.getTitle(),"Forgot UserId / Password");
+        waitSeconds(2);
         forgotUserName.setPhoneNumberToFindAccount("6463521652");
         waitSeconds(4);
         forgotUserName.setDateOfBirthToFindAccount("12-11-1980");
@@ -173,7 +177,7 @@ public class InvestmentTest extends OurAPI {
         forgotUserName.setEmailToFindAccount("john@gmail.com");
         waitSeconds(3);
         forgotUserName.setPreferTextToFindAccount();
-        waitSeconds(2);
+        waitSeconds(4);
         forgotUserName.setSubmitToFindAccount();
         Assert.assertEquals(forgotUserName.getTitle(),"Forgot UserId / Password");
 

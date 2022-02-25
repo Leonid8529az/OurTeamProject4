@@ -73,7 +73,7 @@ public class QuoteTest extends OurAPI {
         quotes.setStartQuoteButton();
         waitSeconds(4);
         fireUIRenters.setAddressForRenterQuote("100 john street");
-        waitSeconds(3);
+        waitSeconds(5);
         fireUIRenters.setCityForRenterQuote("manhattan");
         waitSeconds(3);
         fireUIRenters.setStateForRenterQuote("NY");
@@ -184,7 +184,7 @@ public class QuoteTest extends OurAPI {
         autoQuote.setDateOfBirthForAutoQuote("12/11/1982");
         waitSeconds(4);
         autoQuote.setSuffixForAutoQuote("Sr");
-        waitSeconds(4);
+        waitSeconds(5);
         autoQuote.setCityForAutoQuote("manhattan");
         autoQuote.setZipCodeForAutoQuote("10012");
         autoQuote.setNextForAutoQuote();

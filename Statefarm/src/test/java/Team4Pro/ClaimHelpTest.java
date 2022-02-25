@@ -3,7 +3,6 @@ package Team4Pro;
 import Team4Pro.bankingPages.AgentNearBy;
 import Team4Pro.claimsPages.ClaimHelp;
 import Team4Pro.claimsPages.Contractor;
-import Team4Pro.claimsPages.ExistingClaim;
 import Team4Pro.homePage.Claims;
 import Team4Pro.insurancePages.BusinessInsuranceClaim;
 import base.OurAPI;
