@@ -20,6 +20,9 @@
             <class name = "Team4Pro.TrackClaimsTest"></class>
             <class name = "Team4Pro.InsuranceTest"></class>
             <class name = "Team4Pro.BankingTest"></class>
+            <class name = "Team4Pro.CommunityTest"></class>
+            <class name = "Team4Pro.StateFarmAnniversary"></class>-->
+
         </classes>
     </test>
 

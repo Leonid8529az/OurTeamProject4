@@ -21,9 +21,9 @@ public class TrackClaimsTest extends OurAPI {
         Assert.assertEquals(claims.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
         claims.setClaimsSubTitle_trackAClaim();
         scrollToView(existingClaim.continueForExistingClaim);
-        waitSeconds(3);
+        waitSeconds(4);
         existingClaim.setContinueForExistingClaim();
-        waitSeconds(3);
+        waitSeconds(5);
         Assert.assertEquals(existingClaim.getTitle(),"Other Auto Insurance Carriers Find a Claim - State Farm® B2B");
         waitSeconds(2);
         otherAutoInsurance.setClaimAdjusterName("john");

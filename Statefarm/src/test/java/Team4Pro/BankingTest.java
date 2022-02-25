@@ -29,7 +29,9 @@ public class BankingTest extends OurAPI {
         onlineCheckingPage.setLearnAboutEasyChecking();
         onlineCheckingPage.setContinueButton();
         switchToDifferentTab();
+        waitSeconds(2);
         Assert.assertEquals(bankingMadeSimpleUSBank.getTitle(),"Banking Made Simple | Easy Checking | State Farm & U.S. Bank");
+        waitSeconds(2);
         bankingMadeSimpleUSBank.setApplyNowForBasicChecking();
         Assert.assertEquals(welcomeAllianceBank.getTitle(),"Welcome!");
         waitSeconds(2);
@@ -194,6 +196,7 @@ public class BankingTest extends OurAPI {
         businessLoan.setApplyForEquipmentLoan();
         Assert.assertEquals(businessLoan.getTitle(),"Welcome!");
         welcomeAllianceBank.setContinueAsGuest();
+        waitSeconds(2);
         Assert.assertEquals(welcomeAllianceBank.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
         waitSeconds(2);
         beforeStartLoan.setGetStartedForLoan();

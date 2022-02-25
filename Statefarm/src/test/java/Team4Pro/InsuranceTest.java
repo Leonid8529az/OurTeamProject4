@@ -47,7 +47,9 @@ public class InsuranceTest extends OurAPI {
 
 
         insurance.setInsuranceHeaderInHomePage();
+        waitSeconds(1);
         insurance.setInsuranceSubTitle_HomeAndProperty();
+        waitSeconds(2);
         Assert.assertEquals(homeAndPropertyInsurance.getTitle(),"Home and Property Insurance - State Farm®");
         scrollToView(homeAndPropertyInsurance.unlockMoreForHomeOwners);
         waitSeconds(5);
