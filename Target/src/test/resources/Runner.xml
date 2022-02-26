@@ -11,9 +11,65 @@
     <parameter name ="url" value="https://www.target.com/"></parameter>
 
 
-    <test name = "Your Test name">
+    <test name = "Target test">
         <classes>
-            <class name = "Team4Pro.AppTest"></class>
+
+<!--            <class name="Team4Pro.signUpForDeals.LatestDeals"></class>-->
+<!--            <class name="Team4Pro.signUpForDeals.AddingToCard"></class>-->
+<!--            <class name="Team4Pro.signUpForDeals.SignIn"></class>-->
+<!--            <class name="Team4Pro.signUpForDeals.CheckOnCoupons"></class>-->
+<!--            <class name="Team4Pro.stores.CategoriesSearch"></class>-->
+<!--            <class name="Team4Pro.stores.CustomerServiceChat"></class>-->
+<!--            <class name="Team4Pro.stores.TargetCareers"></class>-->
+<!--            <class name="Team4Pro.stores.StoreFeedBack"></class>-->
+<!--            <class name="Team4Pro.stores.SelectingDifferentStore"></class>-->
+<!--            <class name="Team4Pro.signUpForDeals.RedCardBenefits"></class>-->
+<!--            <class name="Team4Pro.specialtyGiftCards.SelectSpecialtyGiftCard"></class>-->
+<!--            <class name="Team4Pro.specialtyGiftCards.ShopSpecialtyGiftCardByOcassion"></class>-->
+<!--            <class name="Team4Pro.specialtyGiftCards.ShopSpecialtyByCategory"></class>-->
+<!--            <class name="Team4Pro.targetGiftCard.ShopByOccasion"></class>-->
+<!--            <class name="Team4Pro.targetGiftCard.TargetGiftCardFraud"></class>-->
+<!--            <class name="Team4Pro.targetGiftCard.TargetGiftCardFAQS"></class>-->
+<!--            <class name="Team4Pro.targetRegistry.FindARegistry"></class>-->
+<!--            <class name="Team4Pro.targetRegistry.searchRegistryFromAnOrganization"></class>-->
+<!--            <class name="Team4Pro.weeklyAd.FindWeeklyAdFromFeb"></class>-->
+<!--            <class name="Team4Pro.weeklyAd.ViewSneakPeekOfTheOutComingWeeklyAd"></class>-->
+
+<!--            <class name="Team4Pro.teamMemberServices.FindTeamMemberSales"></class>-->
+<!--            <class name="Team4Pro.teamMemberServices.addToCardBullseyeBuyForYourselfGiftCertificate"></class>-->
+<!--            <class name="Team4Pro.teamMemberServices.addToCardBullseyeBuyForSomeoneElseGiftCertificate"></class>-->
+<!--            <class name="Team4Pro.teamMemberServices.SignUpForNewArrivals"></class>-->
+<!--            <class name="Team4Pro.teamMemberServices.BullseyeBirthdayItems"></class>-->
+<!--            <class name="Team4Pro.teamMemberServices.TopCategories"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.RayBanFrames"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.WomensEyeglassesCategory"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.MensEyeglassesCategory"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.KidsEyeglassesCategory"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.SunglassesCategory"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.ContactLensesCategory"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.RayBanAddOnsAndAccessories"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.RayBanBrand"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.RayBanInsurance"></class>-->
+<!--            <class name="Team4Pro.rayBanTests.FindStore"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Women"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Men"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Kids"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Baby"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Home"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.PatioAndGarden"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.KitchenAndDining"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Beauty"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Electronics"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.VideoGames"></class>-->
+<!--            <class name="Team4Pro.featuredCategories.Toys"></class>-->
+
+
+
+
+
+            
+
+
         </classes>
     </test>
 
