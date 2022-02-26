@@ -1,7 +1,10 @@
 package Team4Pro;
 
 import base.OurAPI;
+import com.sun.org.apache.bcel.internal.generic.LADD;
 import org.openqa.selenium.support.PageFactory;
+import org.openxmlformats.schemas.drawingml.x2006.main.STAdjAngle;
+import org.openxmlformats.schemas.drawingml.x2006.main.STOnOffStyleType;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,6 +23,10 @@ public class ProfileSettings extends OurAPI {
     PrivacyBasicsPage privacyBasicsPage;
     ProfileAndTaggingPage profileAndTaggingPage;
     LocationPage locationPage;
+    PublicPostsPage publicPostsPage;
+    BlockingPage blockingPage;
+    LanguageAndRegionPage languageAndRegionPage;
+    StoriesPage storiesPage;
 
     @BeforeMethod
     public void librarySetUp() {
@@ -30,6 +37,10 @@ public class ProfileSettings extends OurAPI {
         privacyBasicsPage = PageFactory.initElements(driver, PrivacyBasicsPage.class);
         profileAndTaggingPage = PageFactory.initElements(driver, ProfileAndTaggingPage.class);
         locationPage = PageFactory.initElements(driver, LocationPage.class);
+        publicPostsPage = PageFactory.initElements(driver, PublicPostsPage.class);
+        blockingPage = PageFactory.initElements(driver, BlockingPage.class);
+        languageAndRegionPage = PageFactory.initElements(driver, LanguageAndRegionPage.class);
+        storiesPage = PageFactory.initElements(driver, StoriesPage.class);
         loginPage.emailFeed(email);
         loginPage.passwordFeed(password);
         loginPage.clickOnLogIn();
@@ -141,7 +152,7 @@ public class ProfileSettings extends OurAPI {
         waitSeconds(2);
         Assert.assertEquals(settingsGeneralPage.addEmailConfirmMessageGetText(),"An email has been sent to socwaloze999@gmail.com to make sure it is a valid address.");
     }
-    @Test
+   @Test
     public void FBTesting_015() {
         loginPage.clickOnDropDownButtinByProfile();
         settingsSecurityPage.settingsAndPrivacy();
@@ -327,7 +338,166 @@ public class ProfileSettings extends OurAPI {
         locationPage.clickOnViewLocationHistory();
         driver.get("https://www.facebook.com/location_history/view/?ref=settings");
         Assert.assertEquals(locationPage.getTextLocationHistoryView(),"Location History View");
+    }
+    @Test
+    public void publicPosts21() {
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        publicPostsPage.clickPublicPostButton();
+        waitSeconds(1);
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(publicPostsPage.getTextWhoCanFollowMe(),"Who Can Follow Me");
+        publicPostsPage.clickOnDropDownByWhoCanFollowMe();
+        publicPostsPage.clickOnOptionInDropDownByWhoCanFollowMe();
+        publicPostsPage.clickOnPublicPostCommentsButton();
+        Assert.assertEquals(publicPostsPage.getTextPublicPostComment(),"Public Post Comments");
+        publicPostsPage.clickOnDropDownByPublicPostComments();
+        publicPostsPage.clickOnOptionPublicPostComments();
+        publicPostsPage.clickOnPublicPostNotificationButton();
+        Assert.assertEquals(publicPostsPage.getTextPublicPostNotification(),"Public Post Notifications");
+        publicPostsPage.clickOnDropDownByPublicPostNotification();
+        publicPostsPage.clickOnOptionInDropDownByPublicPostNotification();
+        scroller("500");
+        publicPostsPage.clickOnPublicProfileInfoButton();
+        Assert.assertEquals(publicPostsPage.getTextPublicProfileInfo(),"Public Profile Info");
+        publicPostsPage.clickOnDropDownByPublicProfileInfo();
+        waitSeconds(1);
+        publicPostsPage.clickOnDropDownByPublicProfileInfo();
 
+//        publicPostsPage.clickOnOptionInDropDownByPublicProfileInfo();
+        Assert.assertEquals(publicPostsPage.getTextOffFacebookPreview(),"Off-Facebook Previews");
+        publicPostsPage.clickOnDropDownByOffFacebookPreview();
+        publicPostsPage.clickOnOptionInDropDownByOffFacebookPreview();
+        publicPostsPage.clickOnCommentRanking();
+        Assert.assertEquals(publicPostsPage.getTextCommentRanking(),"Comment Ranking");
+        publicPostsPage.clickOnDropDownByCommentRanking();
+        publicPostsPage.clickOnOptionIndropDownByCommentRanking();
+        publicPostsPage.clickOnUsername();
+        Assert.assertEquals(publicPostsPage.getTextUsername(),"Username");
+        publicPostsPage.clickOnCloseButton();
+    }
+    @Test
+    public void blocking22() {
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        blockingPage.clickOnBlocking();
+        waitSeconds(1);
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(blockingPage.getTextManageBlocking(),"Manage Blocking");
+        Assert.assertEquals(blockingPage.getTextBlockUsers(),"Block users");
+        //waitSeconds(1000);
+        blockingPage.insertDataInBlockUsersField();
+        blockingPage.clickOnBlockUser();
+        waitSeconds(2);
+        blockingPage.clickOnConfirmBlocking();
+        blockingPage.clickOnBlockAgain();
+        waitSeconds(3);
+        Assert.assertEquals(blockingPage.getTextBlockMessages(),"Block messages");
+        blockingPage.insertTextInBlockMessagesField();
+        blockingPage.clickOnDoneButton();
+        Assert.assertEquals(blockingPage.getTextBlockAppInvites(),"Block app invites");
+        blockingPage.insertTextBlockAppInvites();
+        Assert.assertEquals(blockingPage.getTextBlockEvents(),"Block event invites");
+        blockingPage.insertTextBlockEventsField();
+        Assert.assertEquals(blockingPage.getTextBlockApps(),"Block apps");
+        blockingPage.insertBlockAppsField();
+        Assert.assertEquals(blockingPage.getTextBlockPages(),"Block Pages");
+        blockingPage.insertInBlockPageField();
+    }
+    @Test
+    public void languageAndRegion23() {
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        languageAndRegionPage.clickLanguageAndRegion();
+        waitSeconds(1);
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(languageAndRegionPage.getTextLanguageAndRegion(),"Language and Region Settings");
+        languageAndRegionPage.clickOnFacebookLanguage();
+        Assert.assertEquals(languageAndRegionPage.getTextFacebookLanguage(),"Facebook language");
+        languageAndRegionPage.clickSelectLanguage();
+        languageAndRegionPage.clickOnRussianOption();
+        languageAndRegionPage.clickOnSaveLanguage();
+        waitSeconds(3);
+        driver.get("https://www.facebook.com/settings?tab=language&section=account&view");
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(languageAndRegionPage.getTextLanguageAndRegion(),"Настройки языка и региона");
+        waitSeconds(1);
+        languageAndRegionPage.clickSelectLanguage();
+        languageAndRegionPage.clickOnEnglishOtion();
+        languageAndRegionPage.clickOnSaveLanguage();
+        waitSeconds(3);
+        driver.get("https://www.facebook.com/settings?tab=language&edited=account");
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(languageAndRegionPage.getTextLanguageAndRegion(),"Language and Region Settings");
+        Assert.assertEquals(languageAndRegionPage.getTextRegionFormat(),"Region format");
+        languageAndRegionPage.clickRegionFormtat();
+        Assert.assertEquals(languageAndRegionPage.getTextFormatForDates(),"Formats for dates, times and numbers");
+        waitSeconds(1);
+        languageAndRegionPage.clickOnFormatDropDown();
+        waitSeconds(1);
+        languageAndRegionPage.insertDateForFormatField();
+        languageAndRegionPage.saveDatesFormat();
+        languageAndRegionPage.clickOnTemperatureButton();
+        Assert.assertEquals(languageAndRegionPage.getTextTemperature(),"Temperature");
+        languageAndRegionPage.selectDropDownTempearture();
+        languageAndRegionPage.clickOnCelsius();
+        languageAndRegionPage.clickSaveButtomTemperature();
+        waitSeconds(3);
+        switchToIFrame(settingsGeneralPage.iFrame);
+        languageAndRegionPage.clickOnTemperatureButton();
+        Assert.assertEquals(languageAndRegionPage.getTextTemperature(),"Temperature");
+        languageAndRegionPage.selectDropDownTempearture();
+        languageAndRegionPage.clickOnFahrenheit();
+        languageAndRegionPage.clickSaveButtomTemperature();
+        waitSeconds(3);
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(languageAndRegionPage.getTextPostsFromFriends(),"Posts from friends and Pages");
+        languageAndRegionPage.clickTranslatePostsInto();
+        languageAndRegionPage.selectLanguageToTranslateInto();
+        languageAndRegionPage.clickOnRussianOption();
+        languageAndRegionPage.selectLanguageToTranslateInto();
+        languageAndRegionPage.clickOnEnglishOtion();
+        languageAndRegionPage.clickOnSaveLanguageTranslatePostsInto();
+        languageAndRegionPage.clickOnLanguageYouDontWantToBeOffered();
+        Assert.assertEquals(languageAndRegionPage.getTextLanguageYouDontWantToBeOffered(),"Languages you don't want to be offered translations for");
+        languageAndRegionPage.insertTextInInputBoxForLanguageYouDontWantToBeOffered();
+        languageAndRegionPage.clickOnSaveButtonLanguagesYouDontWantToBeOffered();
+        languageAndRegionPage.clickOnNoAutomaticTranslation();
+        Assert.assertEquals(languageAndRegionPage.getTextNoAutomatiTranslation(),"Languages you don't want automatically translated");
+        languageAndRegionPage.insertDateInNoAtomaticTransaltion();
+        languageAndRegionPage.clickOnSaveNoAutomaticTranslation();
+        languageAndRegionPage.clickMultilingualPost();
+        Assert.assertEquals(languageAndRegionPage.getTextMultilingualPost(),"Multilingual posts");
+        languageAndRegionPage.clickMultilingualCheckbox();
+        languageAndRegionPage.clickSaveMultilingual();
+        Assert.assertEquals(languageAndRegionPage.getTextTurnedOnOrOff(),"Turned on");
+        languageAndRegionPage.clickMultilingualPost();
+        languageAndRegionPage.clickMultilingualCheckbox();
+        languageAndRegionPage.clickSaveMultilingual();
+        Assert.assertEquals(languageAndRegionPage.getTextTurnedOnOrOff(),"Turned off");
+    }
+    @Test
+    public void stories24() {
+        loginPage.clickOnDropDownButtinByProfile();
+        settingsSecurityPage.settingsAndPrivacy();
+        settingsSecurityPage.settings();
+        storiesPage.clickOnStoriesButton();
+        waitSeconds(1);
+        switchToIFrame(settingsGeneralPage.iFrame);
+        Assert.assertEquals(storiesPage.getTextStoriesSettings(),"Stories Settings");
+        storiesPage.clickOnShareStoryInTheirOwnStory();
+        Assert.assertEquals(storiesPage.getTextShareStoryInTheirOwnStory(),"Allow others to share your public stories to their own story?");
+        storiesPage.clickOnDropDownInShareStoryInTheirStory();
+        storiesPage.clickOnOptionInShareYourStoryInTheirStory();
+        storiesPage.clickOnCloseShareYourStoryInTheirStory();
+        storiesPage.clickOnShareIfYouMentionedThem();
+        Assert.assertEquals(storiesPage.getTextShareIfYouMentionedThem(),"Allow people to share your stories if you mention them?");
+        storiesPage.clickOnDropDownByIfYouMentionedThem();
+        storiesPage.clickOnOptionInIfYouMentionedThem();
+        storiesPage.clickOnCloseInIfYouMentionedThem();
 
     }
 
