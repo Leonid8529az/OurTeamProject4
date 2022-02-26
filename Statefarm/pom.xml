@@ -35,7 +35,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>Statefarm/target/test-classes/Runner.xml</suiteXmlFile>
+                        <suiteXmlFile>c:Users/farid/eclipse-workspace/OurTeamProject4/Statefarm/target/test-classes/Runner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
