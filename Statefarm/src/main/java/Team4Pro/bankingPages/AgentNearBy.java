@@ -34,6 +34,16 @@ public class AgentNearBy extends OurAPI {
     public
     WebElement sendEmailToAgent;
 
+    @FindBy(xpath = "//*[@id='search-options-toggle']")
+    WebElement advancedSearch;
+    @FindBy(xpath = "//*[@id='language']")
+    WebElement languageForAdvanced;
+    @FindBy(xpath = "//*[@id='products']")
+    WebElement productForAdvanced;
+    @FindBy(xpath = "//*[@id='distanceDropdown']")
+    WebElement distanceForAdvanced;
+
+
     public void setSammyMartinezWebsite(){click(sammyMartinezWebsite);}
     public void setSammyMartinezDirection(){click(sammyMartinezDirection);}
     public void setGetSammyMartinezEmail(){click(getSammyMartinezEmail);}
@@ -42,5 +52,10 @@ public class AgentNearBy extends OurAPI {
     public void setTextToEmail(String text){enterText(textToEmail,text);}
     public void setSendEmailToAgent(){click(sendEmailToAgent);}
     public void setZipcodeToFindAgent(String zipcode){enterText(zipcodeToFindAgent,zipcode);}
+    public void setAdvancedSearch(){click(advancedSearch);}
+    public void setLanguageForAdvanced(String language){enterText(languageForAdvanced,language);}
+    public void setProductForAdvanced(String product){selectDropDownOption(productForAdvanced,product);}
+    public void setDistanceForAdvanced(String distance){selectDropDownOption(distanceForAdvanced,distance);}
+
 
 }

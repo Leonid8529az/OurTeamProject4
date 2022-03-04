@@ -12,11 +12,14 @@ public class ForgotUserName extends OurAPI {
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//*[@id=\"forgotPhoneInput\"]")
+    public
     WebElement phoneNumberToFindAccount;
     @FindBy(xpath = "//*[@id=\"forgotDobInput\"]")
+    public
     WebElement dateOfBirthToFindAccount;
 
     @FindBy(xpath = "//*[@id=\"forgotEmailInput\"]")
+    public
     WebElement emailToFindAccount;
 
     @FindBy(xpath = "//*[@id='emailId']")
@@ -24,6 +27,7 @@ public class ForgotUserName extends OurAPI {
     WebElement preferTextToFindAccount;
 
     @FindBy(xpath = "//*[@id='submitBtn']")
+    public
     WebElement submitToFindAccount;
 
 

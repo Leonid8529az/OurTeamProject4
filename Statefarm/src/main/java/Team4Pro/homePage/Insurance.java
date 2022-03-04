@@ -37,6 +37,27 @@ public class Insurance extends OurAPI {
     WebElement insuranceSubTitle_BusinessLiability;
     @FindBy(xpath = "//*[text()='Roadside Assistance']")
     WebElement insuranceSubTitle_RoadAssistance;
+    @FindBy(xpath = "//*[text()='Farm and Ranch']")
+    WebElement insuranceSubtitle_farmAndRanch;
+    @FindBy(xpath = "//*[text()='Motorhome']")
+    WebElement insuranceSubtitle_motorHome;
+    @FindBy(xpath = "//*[@id=\"oneX-5-insurance\"]")
+    WebElement insuranceSubtitle_petMedical;
+    @FindBy(xpath = "//*[text()=\"Individual Medical\"]")
+    WebElement insuranceSubtitle_individualMedical;
+    @FindBy(xpath = "//*[text()=\"Surety & Fidelity Bonds\"]")
+    WebElement insuranceSubtitle_suretyBonds;
+    @FindBy(xpath = "//*[text()=\"Contractors Policy\"]")
+    WebElement insuranceSubTitle_contractorPolicy;
+    @FindBy(xpath = "//*[text()='Motorcycle']")
+    WebElement insuranceSubTitle_Motorcycle;
+    @FindBy(xpath = "//*[text()='Boat']")
+    WebElement insuranceSubTitle_Boat;
+    @FindBy(xpath = "//*[text()='Personal Articles']")
+    WebElement insuranceSubTitle_PersonalArticle ;
+
+
+
 
 
     public void setInsuranceHeaderInHomePage(){click(insuranceHeaderInHomePage);}
@@ -50,6 +71,15 @@ public class Insurance extends OurAPI {
     public void setInsuranceSubTitle_WorkersCompensation(){click(insuranceSubTitle_WorkersCompensation);}
     public void setInsuranceSubTitle_BusinessLiability(){click(insuranceSubTitle_BusinessLiability);}
     public void setInsuranceSubTitle_RoadAssistance(){click(insuranceSubTitle_RoadAssistance);}
+    public void setInsuranceSubtitle_farmAndRanch(){click(insuranceSubtitle_farmAndRanch);}
+    public void setInsuranceSubtitle_motorHome(){click(insuranceSubtitle_motorHome);}
+    public void setInsuranceSubtitle_petMedical(){click(insuranceSubtitle_petMedical);}
+    public void setInsuranceSubtitle_individualMedical(){click(insuranceSubtitle_individualMedical);}
+    public void setInsuranceSubtitle_suretyBonds(){click(insuranceSubtitle_suretyBonds);}
+    public void setInsuranceSubTitle_contractorPolicy(){click(insuranceSubTitle_contractorPolicy);}
+    public void setInsuranceSubTitle_Motorcycle(){click(insuranceSubTitle_Motorcycle);}
+    public void setInsuranceSubTitle_Boat(){click(insuranceSubTitle_Boat);}
+    public void setInsuranceSubTitle_PersonalArticle(){click(insuranceSubTitle_PersonalArticle);}
 
 
 }

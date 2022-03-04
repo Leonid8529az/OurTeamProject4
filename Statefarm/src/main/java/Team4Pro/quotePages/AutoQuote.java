@@ -16,6 +16,7 @@ public class AutoQuote extends OurAPI {
     @FindBy(xpath = "//*[@id=\"last_name\"]")
     WebElement lastNameForAutoQuote;
     @FindBy(xpath = "//span[@id='suffix_name-button']")
+    public
     WebElement suffixForAutoQuote;
     @FindBy(xpath = "//*[@id=\"street1\"]")
     WebElement addressForAutoQuote;

@@ -2,26 +2,32 @@ package Team4Pro;
 
 import Team4Pro.homePage.DifferentArticles;
 import base.OurAPI;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class CommunityTest extends OurAPI {
     @Test
     public void teacherAssistTest(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         DifferentArticles differentArticles = new DifferentArticles(driver);
         CommunityInvolvement communityInvolvement = new CommunityInvolvement(driver);
         TeacherAssistPage teacherAssistPage = new TeacherAssistPage(driver);
         NewYorkForTeacherAssist newYorkForTeacherAssist = new NewYorkForTeacherAssist(driver);
 
         scrollToView(differentArticles.communityInvolvement);
-        waitSeconds(3);
+        wait.until(ExpectedConditions.elementToBeClickable(differentArticles.communityInvolvement));
         differentArticles.setCommunityInvolvement();
+        wait.until(ExpectedConditions.titleIs("Community Service & Involvement - State Farm®"));
+        Assert.assertEquals(driver.getTitle(),"Community Service & Involvement - State Farm®");
         communityInvolvement.setTeacherAssist();
-        Assert.assertEquals(communityInvolvement.getTitle(),"Community Service & Involvement - State Farm®");
-        waitSeconds(3);
         switchToDifferentTab();
         Assert.assertEquals(teacherAssistPage.getTitle(),"200 Winners - $500,000 in Teacher Assists");
         scrollToView(teacherAssistPage.stateForTeacherAssist);
+        wait.until(ExpectedConditions.elementToBeClickable(teacherAssistPage.stateForTeacherAssist));
         waitSeconds(3);
         teacherAssistPage.setStateForTeacherAssist();
         Assert.assertEquals(newYorkForTeacherAssist.getTitle(),"200 Winners - $500,000 in Teacher Assists");
@@ -40,18 +46,16 @@ public class CommunityTest extends OurAPI {
         scrollToView(differentArticles.communityInvolvement);
         waitSeconds(3);
         differentArticles.setCommunityInvolvement();
+        waitSeconds(2);
         scrollToView(communityInvolvement.newsRoom);
         waitSeconds(2);
         Assert.assertEquals(communityInvolvement.getTitle(),"Community Service & Involvement - State Farm®");
         communityInvolvement.setNewsRoom();
         scrollToView(goodNeighborPage.environment);
-        waitSeconds(3);
         goodNeighborPage.setEnvironment();
         Assert.assertEquals(environmentPage.getTitle(),"Environment");
         scrollToView(environmentPage.planningAppreciation);
-        waitSeconds(2);
         environmentPage.setPlanningAppreciation();
-        waitSeconds(2);
         scrollToView(environmentPage.jenniferYoungEmail);
         waitSeconds(2);
         environmentPage.setJenniferYoungEmail();
@@ -62,6 +66,7 @@ public class CommunityTest extends OurAPI {
 
     @Test
     public void simpleInsightsTest(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         DifferentArticles differentArticles = new DifferentArticles(driver);
         CommunityInvolvement communityInvolvement = new CommunityInvolvement(driver);
         SimpleInsightPage simpleInsightPage = new SimpleInsightPage(driver);
@@ -69,34 +74,40 @@ public class CommunityTest extends OurAPI {
 
 
         scrollToView(differentArticles.communityInvolvement);
+        wait.until(ExpectedConditions.elementToBeClickable(differentArticles.communityInvolvement));
         waitSeconds(3);
         differentArticles.setCommunityInvolvement();
-        waitSeconds(2);
+        waitSeconds(3);
+//        wait.until(ExpectedConditions.elementToBeClickable(differentArticles.communityInvolvement));
+        wait.until(ExpectedConditions.titleIs("Community Service & Involvement - State Farm®"));
         Assert.assertEquals(differentArticles.getTitle(),"Community Service & Involvement - State Farm®");
         scrollToView(communityInvolvement.simpleInsights);
-        waitSeconds(3);
+        wait.until(ExpectedConditions.elementToBeClickable(communityInvolvement.simpleInsights));
         communityInvolvement.setSimpleInsights();
         Assert.assertEquals(differentArticles.getTitle(),"Simple Insights from State Farm - State Farm®");
         scrollToView(simpleInsightPage.badWeatherDriving);
         simpleInsightPage.setBadWeatherDriving();
         scrollToView(collectionOfArticle.drivingInTheRain);
-        waitSeconds(2);
+       wait.until(ExpectedConditions.elementToBeClickable(collectionOfArticle.drivingInTheRain));
         collectionOfArticle.setDrivingInTheRain();
-        waitSeconds(2);
+        wait.until(ExpectedConditions.titleIs("Tips for Driving Safely in the Rain - State Farm®"));
         Assert.assertEquals(communityInvolvement.getTitle(),"Tips for Driving Safely in the Rain - State Farm®");
 
     }
 
     @Test
     public void nationalCommunityTest(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         DifferentArticles differentArticles = new DifferentArticles(driver);
         CommunityInvolvement communityInvolvement = new CommunityInvolvement(driver);
         FoundationPage foundationPage = new FoundationPage(driver);
 
         scrollToView(differentArticles.communityInvolvement);
-        waitSeconds(3);
+        wait.until(ExpectedConditions.elementToBeClickable(differentArticles.communityInvolvement));
+        waitSeconds(2);
         differentArticles.setCommunityInvolvement();
-        Assert.assertEquals(differentArticles.getTitle(),"Community Service & Involvement - State Farm®");
+        wait.until(ExpectedConditions.elementToBeClickable(differentArticles.communityInvolvement));
+        Assert.assertEquals(driver.getTitle(),"Community Service & Involvement - State Farm®");
         scrollToView(communityInvolvement.foundation);
         communityInvolvement.setFoundation();
         Assert.assertEquals(communityInvolvement.getTitle(),"State Farm Foundation - State Farm®");
@@ -108,16 +119,18 @@ public class CommunityTest extends OurAPI {
 
     @Test
     public void sponsorshipProposalTest(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         DifferentArticles differentArticles = new DifferentArticles(driver);
         CommunityInvolvement communityInvolvement = new CommunityInvolvement(driver);
         SponsorShipSubmission sponsorShipSubmission = new SponsorShipSubmission(driver);
 
         scrollToView(differentArticles.communityInvolvement);
+        wait.until(ExpectedConditions.elementToBeClickable(differentArticles.communityInvolvement));
         waitSeconds(3);
         differentArticles.setCommunityInvolvement();
-        waitSeconds(2);
+        wait.until(ExpectedConditions.titleIs("Community Service & Involvement - State Farm®"));
+        Assert.assertEquals(driver.getTitle(),"Community Service & Involvement - State Farm®");
         scrollToView(communityInvolvement.sponsorshipProposal);
-        Assert.assertEquals(differentArticles.getTitle(),"Community Service & Involvement - State Farm®");
         communityInvolvement.setSponsorshipProposal();
         Assert.assertEquals(communityInvolvement.getTitle(),"Community Service & Involvement - State Farm®");
         switchToDifferentTab();

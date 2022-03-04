@@ -25,6 +25,8 @@ public class CommunityInvolvement extends OurAPI {
     WebElement nationalCommunity;
     @FindBy(xpath = "//*[@title=\"State Farm Foundation\"]")
     WebElement foundation;
+    @FindBy(xpath = "//*[@title=\"Education Assist®\"]")
+    WebElement educationAssist;
 
     public void setNewsRoom(){click(newsRoom);}
     public void setSimpleInsights(){click(simpleInsights);}
@@ -32,5 +34,6 @@ public class CommunityInvolvement extends OurAPI {
     public void setTeacherAssist(){click(teacherAssist);}
     public void setNationalCommunity(){click(nationalCommunity);}
     public void setFoundation(){click(foundation);}
+    public void setEducationAssist(){click(educationAssist);}
 
 }

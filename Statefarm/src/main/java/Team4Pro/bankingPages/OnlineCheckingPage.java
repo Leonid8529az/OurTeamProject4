@@ -22,8 +22,13 @@ public class OnlineCheckingPage extends OurAPI {
     @FindBy(xpath = "//*[@id='thirdPartyLinkModal-continue']")
     WebElement continueButton;
 
+    @FindBy(xpath = "(//*[text()='Apply with U.S. Bank'])[2]")
+    public
+    WebElement applyNoeForGold;
+
 
     public void setLearnAboutEasyChecking(){click(learnAboutEasyChecking);}
     public void setContinueButton(){click(continueButton);}
+    public void setApplyNoeForGold (){click(applyNoeForGold);}
 
 }

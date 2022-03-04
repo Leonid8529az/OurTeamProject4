@@ -5,8 +5,12 @@ import Team4Pro.insurancePages.LifeQuote;
 import Team4Pro.investmentPages.PersonalInfo;
 import Team4Pro.quotePages.*;
 import base.OurAPI;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class QuoteTest extends OurAPI {
 
@@ -63,6 +67,7 @@ public class QuoteTest extends OurAPI {
 
     @Test
     public void renterQuote(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         Quotes quotes = new Quotes(driver);
         FireUIRenters fireUIRenters = new FireUIRenters(driver);
 
@@ -71,15 +76,14 @@ public class QuoteTest extends OurAPI {
         quotes.setSelectProductForQuote("Renters");
         quotes.setZipCodeForQuote("11214");
         quotes.setStartQuoteButton();
-        waitSeconds(4);
+//        wait.until(ExpectedConditions.elementToBeClickable(fireUIRenters.addressForRenterQuote));
+        waitSeconds(3);
         fireUIRenters.setAddressForRenterQuote("100 john street");
-        waitSeconds(5);
+        wait.until(ExpectedConditions.elementToBeClickable(fireUIRenters.addressForRenterQuote));
+        wait.until(ExpectedConditions.visibilityOf(fireUIRenters.addressForRenterQuote));
         fireUIRenters.setCityForRenterQuote("manhattan");
-        waitSeconds(3);
         fireUIRenters.setStateForRenterQuote("NY");
-        waitSeconds(3);
         fireUIRenters.setZipCodeForRenterQuote("10013");
-        waitSeconds(3);
         fireUIRenters.setContinueButtonForRenterQuote();
         Assert.assertEquals(fireUIRenters.getTitle(),"Fire UI Renters");
 
@@ -170,6 +174,7 @@ public class QuoteTest extends OurAPI {
 
     @Test
     public void autoQuote(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         Quotes quotes = new Quotes(driver);
         AutoQuote autoQuote = new AutoQuote(driver);
         Assert.assertEquals(quotes.getTitle(),"State Farm Auto Insurance & More for 100 Years. Get a Quote - State Farm®");
@@ -182,6 +187,7 @@ public class QuoteTest extends OurAPI {
         autoQuote.setLastNameForAutoQuote("monroe");
         autoQuote.setAddressForAutoQuote("100 john street");
         autoQuote.setDateOfBirthForAutoQuote("12/11/1982");
+//        wait.until(ExpectedConditions.elementToBeClickable(autoQuote.suffixForAutoQuote));
         waitSeconds(4);
         autoQuote.setSuffixForAutoQuote("Sr");
         waitSeconds(5);

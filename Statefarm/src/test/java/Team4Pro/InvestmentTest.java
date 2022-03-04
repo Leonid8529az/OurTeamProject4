@@ -1,12 +1,17 @@
 package Team4Pro;
 
 import Team4Pro.bankingPages.AgentNearBy;
+import Team4Pro.homePage.DifferentArticles;
 import Team4Pro.homePage.Investment;
 import Team4Pro.insurancePages.LifeInsurance;
 import Team4Pro.investmentPages.*;
 import base.OurAPI;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class InvestmentTest extends OurAPI {
 
@@ -153,6 +158,7 @@ public class InvestmentTest extends OurAPI {
 
     @Test
     public void jointAccountTest(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         Investment investment = new Investment(driver);
         JointTenancy jointTenancy = new JointTenancy(driver);
         MutualFunds mutualFunds = new MutualFunds(driver);
@@ -167,17 +173,18 @@ public class InvestmentTest extends OurAPI {
         jointTenancy.setMutualFunds();
         scrollToView(mutualFunds.troubleLogging);
         mutualFunds.setTroubleLogging();
-        waitSeconds(2);
+        wait.until(ExpectedConditions.titleIs("Forgot UserId / Password"));
         Assert.assertEquals(forgotUserName.getTitle(),"Forgot UserId / Password");
-        waitSeconds(2);
+        wait.until(ExpectedConditions.visibilityOf(forgotUserName.phoneNumberToFindAccount));
         forgotUserName.setPhoneNumberToFindAccount("6463521652");
-        waitSeconds(4);
+        wait.until(ExpectedConditions.visibilityOf(forgotUserName.dateOfBirthToFindAccount));
         forgotUserName.setDateOfBirthToFindAccount("12-11-1980");
-        waitSeconds(4);
+        wait.until(ExpectedConditions.visibilityOf(forgotUserName.emailToFindAccount));
         forgotUserName.setEmailToFindAccount("john@gmail.com");
         waitSeconds(3);
         forgotUserName.setPreferTextToFindAccount();
         waitSeconds(4);
+        wait.until(ExpectedConditions.visibilityOf(forgotUserName.submitToFindAccount));
         forgotUserName.setSubmitToFindAccount();
         Assert.assertEquals(forgotUserName.getTitle(),"Forgot UserId / Password");
 
@@ -241,6 +248,60 @@ public class InvestmentTest extends OurAPI {
         collegeSavingCalculator.setInterestGrowth("4");
         collegeSavingCalculator.setCalculateSaving();
         Assert.assertEquals(collegeSavingCalculator.getTitle(),"College Savings Calculator - State Farm®");
+
+    }
+
+    @Test
+    public void americanFundTest(){
+        Investment investment = new Investment(driver);
+        AmericanFunds americanFunds = new AmericanFunds(driver);
+
+        investment.setInvestmentHeaderInHomePage();
+        investment.setInvestmentSubTitle_AmericanFunds();
+        Assert.assertEquals(driver.getTitle(),"American Funds Mutual Funds - State Farm®");
+        americanFunds.setMoneyMarketFund();
+        scrollToView(americanFunds.theBondFundOfAmerica);
+        americanFunds.setTheBondFundOfAmerica();
+        Assert.assertEquals(driver.getTitle(),"American Funds Mutual Funds - State Farm®");
+
+    }
+
+    @Test
+    public void businessToBusinessTest(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+        DifferentArticles differentArticles = new DifferentArticles(driver);
+        B2BPortal b2BPortal = new B2BPortal(driver);
+        WelcomeB2B welcomeB2B = new WelcomeB2B(driver);
+
+        scrollToView(differentArticles.businessToBusiness);
+        differentArticles.setBusinessToBusiness();
+        wait.until(ExpectedConditions.titleIs("B2B Portal | Home - State Farm®"));
+        Assert.assertEquals(driver.getTitle(),"B2B Portal | Home - State Farm®");
+        b2BPortal.setRegister();
+        Assert.assertEquals(driver.getTitle(),"Welcome - B2B ®");
+        welcomeB2B.setBusinessType("Engineering Firms");
+        welcomeB2B.setReasonForContact("B2B Registration");
+        welcomeB2B.setFirstName("john");
+        welcomeB2B.setLastName("monroe");
+        welcomeB2B.setEmailAddress("john@gmail.com");
+        welcomeB2B.setPhoneNumber("646-123-3419");
+        welcomeB2B.setTaxId("16648207684i");
+        welcomeB2B.setNPIId("558h23481gdx324");
+        welcomeB2B.setCompanyName("AAA");
+        welcomeB2B.setCompanyWeb("www.AAA.us");
+        welcomeB2B.setFaxNumber("646-141-1642");
+        welcomeB2B.setNameOfRepresentative("marina");
+        welcomeB2B.setNoForStateFarm();
+        Assert.assertTrue(welcomeB2B.noForStateFarm.isEnabled());
+        scrollToView(welcomeB2B.NPIId);
+        welcomeB2B.setCountry("United States");
+        welcomeB2B.setCity("manhattan");
+        welcomeB2B.setState("New York");
+        welcomeB2B.setZipcode("10012");
+        welcomeB2B.setFullMailing("100 john street");
+        welcomeB2B.setComment("tired");
+        welcomeB2B.setSubmitButton();
+        Assert.assertEquals(driver.getTitle(),"Welcome - B2B ®");
 
     }
 

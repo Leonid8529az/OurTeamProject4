@@ -13,6 +13,7 @@ public class FireUIRenters extends OurAPI {
     }
 
     @FindBy(xpath = "//*[@id=\"insured-address-address_line1-id\"]")
+    public
     WebElement addressForRenterQuote;
     @FindBy(xpath = "//*[@id=\"insured-address-city-id\"]")
     WebElement cityForRenterQuote;

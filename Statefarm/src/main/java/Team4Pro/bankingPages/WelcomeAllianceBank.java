@@ -18,5 +18,9 @@ public class WelcomeAllianceBank extends OurAPI {
 
     WebElement continueAsGuest;
 
+    @FindBy(xpath = "//*[@id='block-link']")
+    WebElement applyWithAgent;
+
     public void setContinueAsGuest(){click(continueAsGuest);}
+    public void setApplyWithAgent(){click(applyWithAgent);}
 }

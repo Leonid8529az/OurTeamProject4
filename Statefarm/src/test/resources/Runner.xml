@@ -12,17 +12,24 @@
 
     <test name = "State Farm Automation">
         <classes>
-<!--            <class name = "Team4Pro.InvestmentTest"></class>-->
-<!--            <class name = "Team4Pro.QuoteTest"></class>-->
-<!--            <class name = "Team4Pro.PayBillTest"></class>-->
-<!--            <class name = "Team4Pro.ClaimsTest"></class>-->
-<!--            <class name = "Team4Pro.ClaimHelpTest"></class>-->
-<!--            <class name = "Team4Pro.TrackClaimsTest"></class>-->
-<!--            <class name = "Team4Pro.InsuranceTest"></class>-->
-<!--            <class name = "Team4Pro.BankingTest"></class>-->
-<!--            <class name = "Team4Pro.CommunityTest"></class>-->
+            <class name = "Team4Pro.InvestmentTest"></class>
+            <class name = "Team4Pro.CareerTest"></class>-->
+            <class name = "Team4Pro.DiversityAndInclusionTest"></class>-->
+            <class name = "Team4Pro.RetireesTest"></class>-->
+            <class name = "Team4Pro.HelpFieldTest"></class>-->
+            <class name = "Team4Pro.FeedBackTest"></class>-->
+            <class name = "Team4Pro.PrivacyAndSecurityTest"></class>-->
+            <class name = "Team4Pro.QuoteTest"></class>
+            <class name = "Team4Pro.PayBillTest"></class>
+            <class name = "Team4Pro.ClaimsTest"></class>
+            <class name = "Team4Pro.ClaimHelpTest"></class>
+            <class name = "Team4Pro.TrackClaimsTest"></class>
+            <class name = "Team4Pro.InsuranceTest"></class>
+            <class name = "Team4Pro.BankingTest"></class>
+            <class name = "Team4Pro.SearchFieldTest"></class>-->
+            <class name = "Team4Pro.CommunityTest"></class>
             <class name = "Team4Pro.StateFarmAnniversary"></class>-->
-
+<!---->
         </classes>
     </test>
 

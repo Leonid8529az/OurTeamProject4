@@ -14,6 +14,7 @@ public class WholeLifeInsurance extends OurAPI {
 
 
     @FindBy(xpath = "//*[@title='Life Insurance Basics']")
+    public
     WebElement lifeInsuranceResources;
     @FindBy(xpath = "//*[text()='Want to know more about life insurance?']")
     public

@@ -13,6 +13,7 @@ public class InforForLifeInsurance extends OurAPI {
     }
 
     @FindBy(xpath = "//*[@id=\"firstName_0\"]")
+    public
     WebElement firstNameForLifeInsurance;
     @FindBy(xpath = "//*[@id=\"GenderKind_0\"]")
     WebElement genderForLifeInsurance;

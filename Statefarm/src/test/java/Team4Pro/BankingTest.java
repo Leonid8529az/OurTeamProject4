@@ -5,14 +5,22 @@ import Team4Pro.homePage.Banking;
 import Team4Pro.bankingPages.*;
 import base.OurAPI;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class BankingTest extends OurAPI {
 
 
     @Test
     public void checkingTest(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(1));
+
         Banking banking = new Banking(driver);
         BankingMadeSimpleUSBank bankingMadeSimpleUSBank = new BankingMadeSimpleUSBank(driver);
         OnlineCheckingPage onlineCheckingPage = new OnlineCheckingPage(driver);
@@ -24,20 +32,25 @@ public class BankingTest extends OurAPI {
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_CheckingAccount();
         Assert.assertEquals(onlineCheckingPage.getTitle(),"Open an Online Checking Account that Fits Your Needs");
-        waitSeconds(3);
+
+        wait.until(ExpectedConditions.elementToBeClickable(onlineCheckingPage.learnAboutEasyChecking));
+
         scrollToView(onlineCheckingPage.learnAboutEasyChecking);
         onlineCheckingPage.setLearnAboutEasyChecking();
         onlineCheckingPage.setContinueButton();
         switchToDifferentTab();
-        waitSeconds(2);
+
+        wait.until(ExpectedConditions.titleIs("Banking Made Simple | Easy Checking | State Farm & U.S. Bank"));
+
         Assert.assertEquals(bankingMadeSimpleUSBank.getTitle(),"Banking Made Simple | Easy Checking | State Farm & U.S. Bank");
-        waitSeconds(2);
         bankingMadeSimpleUSBank.setApplyNowForBasicChecking();
         Assert.assertEquals(welcomeAllianceBank.getTitle(),"Welcome!");
-        waitSeconds(2);
+
+       wait.until(ExpectedConditions.titleIs("Welcome!"));
+
         welcomeAllianceBank.setContinueAsGuest();
         Assert.assertEquals(onlineCheckingWithUSBank.getTitle(),"Open a checking account | State Farm & U.S. Bank");
-        waitSeconds(3);
+        wait.until(ExpectedConditions.titleIs("Open a checking account | State Farm & U.S. Bank"));
         onlineCheckingWithUSBank.setFirstNameField("john");
         onlineCheckingWithUSBank.setLastNameField("preu");
         onlineCheckingWithUSBank.setSuffix("Sr");
@@ -45,8 +58,11 @@ public class BankingTest extends OurAPI {
         onlineCheckingWithUSBank.setPhoneNumberField("64614351627");
         onlineCheckingWithUSBank.setPromoCode("21355332");
         scrollToView(onlineCheckingWithUSBank.saveAndContinue);
+        wait.until(ExpectedConditions.elementToBeClickable(onlineCheckingWithUSBank.saveAndContinue));
         waitSeconds(2);
         onlineCheckingWithUSBank.setSaveAndContinue();
+        waitSeconds(3);
+        wait.until(ExpectedConditions.visibilityOf(onlineCheckingWithUSBank.saveAndContinue));
 
 
     }
@@ -99,6 +115,7 @@ public class BankingTest extends OurAPI {
 
     @Test
     public void creditCards(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         Banking banking = new Banking(driver);
         CreditCards creditCards = new CreditCards(driver);
         ContinueButton continueButton = new ContinueButton(driver);
@@ -116,6 +133,7 @@ public class BankingTest extends OurAPI {
         Assert.assertEquals(cashRewardVisa.getTitle(),"Credit cards | Get the credit you deserve | State Farm and U.S. Bank");
         cashRewardVisa.setApplyForCashRewardVisa();
         welcomeAllianceBank.setContinueAsGuest();
+        wait.until(ExpectedConditions.titleIs("U.S. Bank Credit Cards"));
         Assert.assertEquals(welcomeAllianceBank.getTitle(),"U.S. Bank Credit Cards");
 
 
@@ -183,6 +201,7 @@ public class BankingTest extends OurAPI {
 
     @Test
     public void loanAndCredit(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         Banking banking = new Banking(driver);
         BusinessLoan businessLoan = new BusinessLoan(driver);
         WelcomeAllianceBank welcomeAllianceBank = new WelcomeAllianceBank(driver);
@@ -191,14 +210,13 @@ public class BankingTest extends OurAPI {
 
         banking.setBankingHeaderInHomePage();
         banking.setBankingSubTitle_LoansAndLinesOfCredit();
-        waitSeconds(2);
+        waitSeconds(3);
         scrollToView(businessLoan.applyForEquipmentLoan);
         businessLoan.setApplyForEquipmentLoan();
         Assert.assertEquals(businessLoan.getTitle(),"Welcome!");
         welcomeAllianceBank.setContinueAsGuest();
-        waitSeconds(2);
-        Assert.assertEquals(welcomeAllianceBank.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
-        waitSeconds(2);
+//        wait.until(ExpectedConditions.titleIs("Technical trouble | Open a business lending account | U.S. Bank"));
+        Assert.assertEquals(driver.getTitle(),"U.S. Bank Business Lending");
         beforeStartLoan.setGetStartedForLoan();
         Assert.assertEquals(beforeStartLoan.getTitle(),"Before we start | Open a business lending account | U.S. Bank");
 
@@ -272,6 +290,32 @@ public class BankingTest extends OurAPI {
         Assert.assertEquals(agentNearBy.getTitle(),"Find State Farm® Agents Near You - State Farm®");
         agentNearBy.setGetSammyMartinezEmail();
 
+
+    }
+
+    @Test
+    public void goldCheckingTest(){
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        Banking banking = new Banking(driver);
+        OnlineCheckingPage onlineCheckingPage = new OnlineCheckingPage(driver);
+        WelcomeAllianceBank welcomeAllianceBank = new WelcomeAllianceBank(driver);
+        AgentNearBy agentNearBy = new AgentNearBy(driver);
+
+        banking.setBankingHeaderInHomePage();
+        banking.setBankingSubTitle_CheckingAccount();
+        Assert.assertEquals(driver.getTitle(),"Open an Online Checking Account that Fits Your Needs");
+        scrollToView(onlineCheckingPage.applyNoeForGold);
+        waitSeconds(2);
+        onlineCheckingPage.setApplyNoeForGold();
+        wait.until(ExpectedConditions.elementToBeClickable(onlineCheckingPage.applyNoeForGold));
+        welcomeAllianceBank.setApplyWithAgent();
+        Assert.assertEquals(driver.getTitle(),"Find State Farm® Agents Near You - State Farm®");
+        agentNearBy.setZipcodeToFindAgent("11214");
+        agentNearBy.setAdvancedSearch();
+        agentNearBy.setProductForAdvanced("Banking");
+        agentNearBy.setLanguageForAdvanced("English");
+        agentNearBy.setDistanceForAdvanced("10");
+        Assert.assertEquals(driver.getTitle(),"Find State Farm® Agents Near You - State Farm®");
 
     }
 
